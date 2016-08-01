@@ -295,6 +295,14 @@ body {
 	width: 50px;
 	border-radius: 100%;
 }
+#sell-textbooks-with-books .message i {
+	display: block;
+	top: 9px;
+	position: absolute;
+	left: 0;
+	font-size: 25px;
+	right: 0;
+}
 
 
 @media(max-width:1200px) {
@@ -368,6 +376,14 @@ body {
 	width: 50px;
 	border-radius: 100%;
 }
+	#sell-textbooks-filled .message i {
+		display: block;
+		top: 9px;
+		position: absolute;
+		left: 0;
+		font-size: 25px;
+		right: 0;
+	}
 
 
 @media(max-width:1200px) {
