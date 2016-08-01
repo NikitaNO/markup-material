@@ -7,4 +7,13 @@
     	$(".main-menu").toggleClass("opened");
     } );
 
+     $(".button-collapse").sideNav({
+         menuWidth: 400, // Default is 240
+         edge: 'right', // Choose the horizontal origin
+     });
+
+     $('.close-notifications').click(function() {
+         $('#slide-out').sideNav('hide');
+     });
+
   });

@@ -309,6 +309,7 @@ body {
 	#sell-textbooks-with-books .card-container {
 		width:350px !important;
 		margin-right:35px;
+		margin-bottom:40px;
 	}
 }
 @media(max-width:580px) {
@@ -322,6 +323,7 @@ body {
 	#sell-textbooks-with-books .card-container {
 		width:310px !important;
 		margin-right:35px;
+		margin-bottom:40px;
 	}
 }
 /* end Sell Textbooks with books*/
@@ -409,6 +411,64 @@ body {
 
 
 
+
+/* 9 Notifications sidebar*/
+#slide-out {
+	padding-left:0;
+	padding-right:0;
+}
+	#slide-out .row {
+		padding-left: 35px;
+		padding-right: 35px;
+	}
+	#slide-out .close-notifications {
+		display: block;
+		position: absolute;
+		right: 19px;
+		top: 10px;
+		cursor: pointer;
+		color:#c9c9c9;
+	}
+	#slide-out .notifications-title {
+		font-family: Roboto;
+		font-size: 18px;
+		font-weight: 500;
+		color: #64637c;
+		margin-top: 30px;
+	}
+	#slide-out .circle-img {
+		border-radius: 100%;
+		width: 63px;
+		height: 63px;
+	}
+	#slide-out .check-notification {
+		position: absolute;
+		margin-left: 10px;
+		margin-top: -2px;
+	}
+		#slide-out .check-notification i {
+			width: 17.6px;
+			height: 13.4px;
+			color: #28b361;
+		}
+	#slide-out .product-block img {
+		width: 60px;
+		height: 75.8px;
+	}
+	#slide-out .view-all-notifications {
+		padding-top:10px;
+		height: 83px;
+		background-color: #f0f0f0;
+		position: static;
+		width: 100%;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+/* end Notifications sidebar*/
+
+
+
 /* General Styles */
 	._relative {position: relative !important;}
 
@@ -420,6 +480,11 @@ body {
 		display: table;
 	}
 	.no-padding {padding: 0 !important;}
+	.padding-left-0 {padding-left: 0 !important;}
+	.no-margin {margin: 0 !important;}
+	.margin-bottom-0 {margin-bottom: 0 !important;}
+	.margin-bottom-5 {margin-bottom: 5px !important;}
+	.margin-top-0 {margin-top: 0 !important;}
 	._clear {clear: both;}
 
 
@@ -433,6 +498,7 @@ body {
 	.opacity-05 {opacity: 0.5;}
 
 	.txt-center {text-align:center;}
+	.txt-right {text-align:right;}
 
 	.txt-grey-0 {color: #545e65;}
 	.txt-grey-1 {color: #64637c;}
@@ -441,11 +507,13 @@ body {
 	.txt-grey-4 {color: #a2b4bc;}
 	.txt-grey-5 {color: #4a4a4a;}
 
+	.txt-size-10 {font-size: 10px;}
 	.txt-size-11 {font-size: 11px;}
 	.txt-size-12 {font-size: 12px;}
 	.txt-size-14 {font-size: 14px;}
 
 	.txt-green {color: #28b361;}
+	.txt-green-2 {color: #179f87;}
 
 	._italic {font-style: italic;}
 	.txt-100 {font-weight: 100;}
