@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+	<link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+
+<div class="container padding-top">
+
+	<button class="modal-action modal-close btn-floating waves-effect waves-light btn-flat right circle  _close-btn">
+		<i class="material-icons  txt-grey-0">close</i>
+	</button>
+
+	<div class="row">
+		<div class="left">
+			<img src="img/book-1.png" alt="book" class="z-depth-1  book-img-1">
+		</div>
+		<div class="left  book-description-1">
+			<h3 class="title-2">COMM 212</h3>
+			<h3 class="title-3  txt-grey-0">Business Communication</h3>
+
+			<div class="teal-text  stars-block">
+				<i class="material-icons">star</i>
+				<i class="material-icons">star</i>
+				<i class="material-icons">star</i>
+				<i class="material-icons">star</i>
+				<i class="material-icons">star_border</i>
+
+				&nbsp; <span class="text">(50 reviews)</span>
+	        </div>
+
+	        <div class="book-params-1 txt-grey-1">
+	        	<div> Authors: Benjamin Graham & Jason Zweig </div>
+	        	<div> ISBN10: 0078023165 </div>
+	        	<div> Edition: 11th </div>
+	        	<div> Pub. Date: 1/9/2015 </div>
+	        </div>
+		</div>
+	</div>
+
+	
+	<div class="padding-top _clear"></div>
+
+	<div class="row">
+		<div class="col l4 m5 s12">
+			<h3 class="title-3 txt-green"> Name your price:  </h3>
+
+			<div class="padding-top-2 _clear"></div>
+
+			<div class="input-field  input-1-wrap">
+				<input id="icon_prefix" type="text" class="validate  input-1">
+				<label for="icon_prefix"> Price </label>
+			</div>
+
+			<div class="padding-top _clear"></div>
+
+			<h3 class="title-3 txt-green"> Textbook details:  </h3>
+
+			<div class="padding-top-2 _clear"></div>
+
+			<div class="title-4"> Highlights </div>
+			<div class="radio-group-1">
+				<input type="radio" id="_no" name="highlights" class="with-gap" />
+				<label for="_no">No</label>
+
+				<input type="radio" id="_yes" name="highlights" class="with-gap" />
+				<label for="_yes">Yes</label>
+
+				<input type="radio" id="_some" name="highlights" class="with-gap" />
+				<label for="_some">Some</label>
+			</div>
+
+			<div class="title-4"> Missing pages </div>
+			<div class="radio-group-1">
+				<input type="radio" id="_no-2" name="missing-pages" class="with-gap" />
+				<label for="_no-2">No</label>
+
+				<input type="radio" id="_yes-2" name="missing-pages" class="with-gap" />
+				<label for="_yes-2">Yes</label>
+			</div>
+
+			<div class="title-4"> Notes </div>
+			<div class="radio-group-1">
+				<input type="radio" id="_no-3" name="notes" class="with-gap" />
+				<label for="_no-3">No</label>
+
+				<input type="radio" id="_yes-3"" name="notes" class="with-gap" />
+				<label for="_yes-3">Yes</label>
+
+				<input type="radio" id="_some-3" name="notes" class="with-gap" />
+				<label for="_some-3">Some</label>
+			</div>
+
+
+
+			<div class="title-4"> Photos of your textbook: </div>
+
+			<div class="input-field  input-2">
+				<input id="icon_prefix" type="text" class="validate">
+				<label for="icon_prefix"> Choose files... </label>
+			</div>
+		</div>
+
+		<div class="col l5 m5 s12">
+			<h3 class="title-3 txt-green"> Popular prices:  </h3>
+			
+			<div class="padding-top _clear"></div>
+
+			<div class="left">
+				<div class="valign-wrapper pop-price-img">
+					<img src="img/pop-price-1.png" alt="logo"  class="valign">
+				</div>
+				<div class="pop-price">$53</div>
+			</div>
+			<div class="left">
+				<div class="valign-wrapper pop-price-img">
+					<img src="img/pop-price-2.png" alt="logo"  class="valign">
+				</div>
+				<div class="pop-price">$49</div>
+			</div>
+
+
+
+
+			<div class="_clear padding-top"></div>
+			<div class="row">
+				<div class="input-field col l10 m10 s12">
+					<select id="select-place-to-meet">
+						<option value="1">Option 1</option>
+						<option value="2">Option 2</option>
+						<option value="3">Option 3</option>
+					</select>
+					<label>Choose a place to meet</label>
+				</div>
+	
+	
+				<div class="_clear padding-top-2"></div>
+	
+				<div class="input-field col l10 m10 s12">
+					<textarea id="textarea1" class="materialize-textarea"></textarea>
+					<label for="textarea1">Message to buyer</label>
+				</div>
+
+				<div class="col hint-1 _clear"> This is the first message that the buyer sees from you </div>
+			</div>
+		</div>
+
+	</div>
+
+
+	<button class="right z-depth-0 waves-effect waves-light btn modal-trigger  btn-circled scan-btn">
+		Sell textbook
+	</button>
+
+	<div class="_clear padding-top"></div>
+
+</div>
+
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>
+

@@ -16,4 +16,7 @@
          $('#slide-out').sideNav('hide');
      });
 
+
+    $("#select-place-to-meet").material_select();
+
   });
