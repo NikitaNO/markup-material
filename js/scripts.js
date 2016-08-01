@@ -7,4 +7,7 @@
     	$(".main-menu").toggleClass("opened");
     } );
 
+
+    $("#select-place-to-meet").material_select();
+
   });
