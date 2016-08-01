@@ -244,6 +244,155 @@ body {
 
 
 
+/* 3 Sell Textbooks with books*/
+#sell-textbooks-with-books {
+	margin-bottom:100px;
+}
+#sell-textbooks-with-books .card {
+	border-radius: 2px;
+	width: 350px;
+	background-color: #fafafa;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12);
+}
+	#sell-textbooks-with-books .card img {
+		width: 93px;
+		height: 120px;
+		display: block;
+		position: absolute;
+		top: -15px;
+		box-shadow: 0 0 20px rgba(0, 0, 0, 0.09)
+	}
+	#sell-textbooks-with-books .card .card-action span {
+		width: 163px;
+		height: 15px;
+		font-size: 11px;
+		font-weight: 400;
+		text-align: center;
+		color: #28b361;
+	}
+	#sell-textbooks-with-books .card .card-action a {
+		float:right;
+		width: 45px;
+		height: 16px;
+		font-size: 12px;
+		font-weight: 900;
+		text-align: center;
+		color: #64637c;
+	}
+	#sell-textbooks-with-books .card .card-content {
+		min-height: 130px;
+	}
+#sell-textbooks-with-books .stars-block i {
+	font-size: 15px;
+	color:#179f87;
+}
+#sell-textbooks-with-books .message {
+	position: absolute;
+	display: block;
+	right: 5%;
+	background-color: #28b361;
+	height: 55px;
+	width: 50px;
+	border-radius: 100%;
+}
+
+
+@media(max-width:1200px) {
+	#sell-textbooks-with-books .card-container {
+		width:350px !important;
+		margin-right:35px;
+	}
+}
+@media(max-width:580px) {
+	#sell-textbooks-with-books .input-with-arrow {
+		width: 320px;
+	}
+	#sell-textbooks-with-books .card {
+		width: 310px;
+		margin-right:0;
+	}
+	#sell-textbooks-with-books .card-container {
+		width:310px !important;
+		margin-right:35px;
+	}
+}
+/* end Sell Textbooks with books*/
+
+
+/* 5 Sell Textbooks filled*/
+#sell-textbooks-filled {
+	margin-bottom:100px;
+}
+#sell-textbooks-filled .card {
+	border-radius: 2px;
+	width: 350px;
+	background-color: #fafafa;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12);
+}
+	#sell-textbooks-filled .card img {
+		width: 93px;
+		height: 120px;
+		display: block;
+		position: absolute;
+		top: -15px;
+		box-shadow: 0 0 20px rgba(0, 0, 0, 0.09)
+	}
+	#sell-textbooks-filled .card .card-action span {
+		width: 163px;
+		height: 15px;
+		font-size: 11px;
+		font-weight: 400;
+		text-align: center;
+	}
+	#sell-textbooks-filled .card .card-action a {
+		float:right;
+		height: 16px;
+		font-size: 12px;
+		font-weight: 900;
+		text-align: center;
+		color: #64637c;
+	}
+	#sell-textbooks-filled .card .card-content {
+		min-height: 130px;
+	}
+#sell-textbooks-filled .stars-block i {
+	font-size: 15px;
+	color:#179f87;
+}
+#sell-textbooks-filled .message {
+	position: absolute;
+	display: block;
+	right: 5%;
+	background-color: #28b361;
+	height: 55px;
+	width: 50px;
+	border-radius: 100%;
+}
+
+
+@media(max-width:1200px) {
+	#sell-textbooks-filled .card-container {
+		width:350px !important;
+		margin-right:35px;
+	}
+}
+@media(max-width:580px) {
+	#sell-textbooks-filled .input-with-arrow {
+		width: 320px;
+	}
+	#sell-textbooks-filled .card {
+		width: 310px;
+		margin-right:0;
+	}
+	#sell-textbooks-filled .card-container {
+		width:310px !important;
+		margin-right:35px;
+	}
+}
+/* end Sell Textbooks filled*/
+
+
+
 /* General Styles */
 	._relative {position: relative !important;}
 
@@ -263,11 +412,22 @@ body {
 		font-weight: 500;
 		margin-bottom: 10px;
 	}
-	
+
+	.float-none {float: none !important;}
+	.opacity-05 {opacity: 0.5;}
+
+	.txt-center {text-align:center;}
+
 	.txt-grey-0 {color: #545e65;}
 	.txt-grey-1 {color: #64637c;}
 	.txt-grey-2 {color: #9291a3;}
 	.txt-grey-3 {color: #cccfd1;}
+	.txt-grey-4 {color: #a2b4bc;}
+	.txt-grey-5 {color: #4a4a4a;}
+
+	.txt-size-11 {font-size: 11px;}
+	.txt-size-12 {font-size: 12px;}
+	.txt-size-14 {font-size: 14px;}
 
 	.txt-green {color: #28b361;}
 
@@ -304,6 +464,9 @@ body {
 	}
 	.scan-icon img {
 		margin: 0;
+	}
+	.scan-btn {
+		background-color:#179f87;
 	}
 /* end Buttons */
 
