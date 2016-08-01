@@ -230,6 +230,16 @@ body {
 		top: 10px;
 		right: 0;
 	}
+
+	.scan-img {
+		display: inline-block;
+		margin-top: 6px;
+	}
+	.scan-btn span {
+		position: relative;
+		top: -8px;
+	}
+	.scan-btn {margin-top: 12px;}
 /* end Sell Textbooks*/
 
 
@@ -237,7 +247,7 @@ body {
 /* General Styles */
 	._relative {position: relative !important;}
 
-	.padding-top {padding-top: 40px;}
+	.padding-top {padding-top: 30px;}
 
 	._center {
 		margin-left: auto;
