@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+	<link rel="stylesheet" href="css/styles.css">
+
+	<title> Header </title>
+</head>
+<body>
+
+
+<header class="header txt-grey-3"> <!-- on-focus on-typing -->
+	<div class="left  header-left">
+		<img src="img/logo-solo.png" alt="logo" class="logo">
+
+		<div class="header-devider"></div>
+		<i class="material-icons  search-logo">search</i>
+		<input placeholder="Search by Title, Author, ISBN" id="first_name" type="text" class="validate  search-input">
+
+	</div>
+	<div class="right  header-right">
+		<span class="txt-500 wallet-text">Your wallet</span> &nbsp;
+		<span class="white-text  txt-600 money-text">$10.00</span>
+		<div class="header-devider"></div>
+
+		<span class="backpack"> <img src="img/backpack.png" alt="backpack"> </span>
+		<span class="notif"> <img src="img/notif.png" alt="notification"> </span>
+		<span data-activates="dropdown1" class="dropdown-button header-avatar"> <img src="img/user.jpg" alt="user"> </span>
+		<span data-activates="dropdown1" class="dropdown-button dropdown-triangle"></span>
+
+		<ul id='dropdown1' class='dropdown-content'>
+			<li><a href="#!">one</a></li>
+			<li><a href="#!">two</a></li>
+			<li class="divider"></li>
+			<li><a href="#!">three</a></li>
+		</ul>
+	</div>
+
+	<div class="_clear"></div>
+
+	<div class="main-menu left">
+		<a class="" href="#test1">My schedule</a>
+		<a class="" href="#test2">My textbooks</a>
+		<a class="active" href="#test3">Sell textbooks</a>
+		<a class="" href="#test4">My classmates</a>
+	</div>
+
+	<div class="btn-floating waves-effect waves-light  open-menu-btn">
+		<i class="material-icons">menu</i>
+	</div>
+
+	<div class="_clear"></div>
+</header>
+
+
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>
+

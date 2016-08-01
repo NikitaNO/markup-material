@@ -1,0 +1,312 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+	font-family: Roboto;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/* Header */
+
+	.header {
+		position: relative;
+		background-color: #545e65;
+		padding: 30px 30px 0;
+	}
+
+	.search-input {
+		display: inline-block !important;
+		width: 200px !important;
+		font-weight: 500 !important;
+		border-bottom: none !important;
+		position: relative;
+		top: -6px;
+		left: -4px;
+	}
+	.search-logo {
+		margin: 0 10px 0 20px;
+		position: relative;
+		top: 2px;
+	}
+	.header-devider {
+		display: inline-block;
+		margin: 0 0 0 20px;
+		border-left: 1px solid #969ca0;
+		height: 25px;
+		position: relative;
+		top: 1px;
+	}
+	.wallet-text,
+	.money-text {
+		position: relative;
+		top: -6px;
+	}
+
+	.dropdown-triangle {
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 4px 3px 0 3px;
+		border-color: #b4b8bb transparent transparent transparent;
+		display: inline-block;
+		cursor: pointer;
+		position: relative;
+		top: -8px;
+	}
+
+	.header-avatar {
+		display: inline-block;
+		width: 25px;
+		height: 25px;
+		border-radius: 100%;
+		cursor: pointer;
+		overflow: hidden;
+	}
+	.header-avatar img {
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+
+	.backpack {
+		margin: 0 0 0 25px;
+		position: relative;
+		top: -1px;
+		cursor: pointer;
+	}
+	.notif {
+		margin: 0 15px;
+		position: relative;
+		top: -3px;
+		cursor: pointer;
+	}
+
+	.main-menu {
+		margin: 10px 0 9px 77px;
+	}
+	.main-menu a {
+		color: #cccfd1;
+		border-bottom: 3px solid transparent;
+		transition: .3s;
+		text-transform: uppercase;
+		padding: 9px 8px;
+		font-size: 13px;
+		font-weight: 500;
+		margin: 0 10px;
+	}
+	.main-menu a.active,
+	.main-menu a:hover {
+		color: #fff;
+	}
+	.main-menu a.active {
+		border-bottom: 3px solid #2bdf87;
+	}
+	.open-menu-btn {display: none;}
+
+	@media (max-width: 768px) {
+		.header-left,
+		.header-right {
+			float: none !important;
+			clear: both;
+			display: table;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.header .dropdown-triangle {margin-left: 3px;}
+
+		.main-menu {
+			width: 100%;
+			height: 0;
+			overflow: hidden;
+			transition: .3s;
+		}
+		.main-menu.opened {
+			height: 170px;
+		}
+		.main-menu a {
+			display: block;
+			width: 100%;
+		}
+
+		.open-menu-btn {
+			display: block;
+			position: absolute;
+			top: 25px;
+			right: 30px;
+		}
+		.open-menu-btn i {font-size: 26px;}
+	}
+
+	@media (max-width: 500px) {
+		.open-menu-btn {right: 10px;}
+	}
+
+
+/* end Header */
+
+
+
+/* 1 User Profile */
+	.user-profile-modal {
+		height: 60%;
+	}
+
+	._avatar-wrapper {
+		height: 60%;
+	}
+
+	._avatar {
+		border: 10px solid rgba(255,255,255, .14);
+		width: 200px;
+		height: auto;
+	}
+
+	._avatar-wrapper .user-name {
+		margin-top: 30px;
+	}
+
+	.stars-block .text {
+		font-weight: 500;
+		font-style: italic;
+		font-size: 20px;
+		position: relative;
+		top: -4px;
+	}
+
+	.user-info {height: 40%;}
+	.user-info._center {width: 50%;}
+
+	.user-info .title {
+		font-size: 30px;
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
+
+	.user-info .number {
+		font-size: 50px;
+	}
+	.user-info .under-number {
+		font-size: 30px;
+		padding: 0 20%;
+		line-height: 1.2em;
+	}
+
+	@media (max-height: 700px) {
+		.user-profile-modal {
+			height: 100%;
+		}
+	}
+
+	@media (max-height: 1100px) {
+		.user-profile-modal {
+			height: 80%;
+		}
+
+		.user-info .number {font-size: 40px;}
+		.user-info .under-number {font-size: 20px;}
+	}
+
+	@media (min-height: 1200px) {
+		._avatar { width: 250px;}
+	}
+/* end User Profile */
+
+
+
+/* 2 Sell Textbooks*/
+	.money-books {
+		margin-right: 20px;
+		position: relative;
+		top: 20px;
+	}
+
+	.input-with-arrow i {
+		position: absolute;
+		top: 10px;
+		right: 0;
+	}
+/* end Sell Textbooks*/
+
+
+
+/* General Styles */
+	._relative {position: relative !important;}
+
+	.padding-top {padding-top: 40px;}
+
+	._center {
+		margin-left: auto;
+		margin-right: auto;
+		display: table;
+	}
+	.no-padding {padding: 0 !important;}
+	._clear {clear: both;}
+
+
+	.title-1 {
+		font-size: 25px;
+		font-weight: 500;
+		margin-bottom: 10px;
+	}
+	
+	.txt-grey-0 {color: #545e65;}
+	.txt-grey-1 {color: #64637c;}
+	.txt-grey-2 {color: #9291a3;}
+	.txt-grey-3 {color: #cccfd1;}
+
+	.txt-green {color: #28b361;}
+
+	._italic {font-style: italic;}
+	.txt-100 {font-weight: 100;}
+	.txt-200 {font-weight: 200;}
+	.txt-300 {font-weight: 300;}
+	.txt-400 {font-weight: 400;}
+	.txt-500 {font-weight: 500;}
+	.txt-600 {font-weight: 600;}
+	.txt-700 {font-weight: 700;}
+	.txt-800 {font-weight: 800;}
+	.txt-900 {font-weight: 900;}
+/* end General Styles */
+
+
+
+/* Buttons */
+	._close-btn {
+		position: absolute;
+		top: 30px;
+		right: 30px;
+		width: 60px;
+		height: 60px;
+	}
+	._close-btn .material-icons {
+	    font-size: 50px;
+    	margin-top: 12px;
+	}
+
+	.btn-circled {
+		border-radius: 30px;
+		font-weight: 500;
+	}
+	.scan-icon img {
+		margin: 0;
+	}
+/* end Buttons */
+
+
+
+/* Others */
+	.modal {
+		top: 0 !important;
+		max-height: 100% !important;
+	}
+	.modal-content {
+		height: 100%;
+	}
+
+	.teal {background-color: #179f87 !important;}
+/* end Others */
