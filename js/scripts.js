@@ -20,4 +20,18 @@
     $("#search-by-title").material_select();
     $("#search-by-price").material_select();
 
+
+    $(".search-input").on("focus", () => {
+        $(".header").addClass("on-typing");
+        $(".close-layer").addClass("active");
+    });
+    $(".close-search-btn").on("click", () => {
+        $(".header").removeClass("on-typing");
+        $(".close-layer").removeClass("active");
+    });
+    $(".close-layer").on("click", () => {
+        $(".header").removeClass("on-typing");
+        $(".close-layer").removeClass("active");
+    });
+
   });
