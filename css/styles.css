@@ -246,57 +246,71 @@ body {
 
 
 /* 3 Sell Textbooks with books */
-	#sell-textbooks-with-books {
-		margin-bottom:100px;
-	}
-	#sell-textbooks-with-books .card {
-		border-radius: 2px;
-		width: 350px;
+	.book-card {margin-bottom: 15px;}
+	.book-card .card {
 		background-color: #fafafa;
 		box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12);
 	}
-		#sell-textbooks-with-books .card img {
-			width: 93px;
-			height: 120px;
+		.book-img-2 img {
+			width: 100px;
+			height: auto;
 			display: block;
-			position: absolute;
-			top: -15px;
-			box-shadow: 0 0 20px rgba(0, 0, 0, 0.09)
+			position: relative;
+			top: -35px;
+			box-shadow: 0 0 20px rgba(0, 0, 0, 0.09);
+			border-radius: 3px;
+
 		}
-		#sell-textbooks-with-books .card .card-action span {
-			width: 163px;
-			height: 15px;
-			font-size: 11px;
-			font-weight: 400;
-			text-align: center;
-			color: #28b361;
-		}
-		#sell-textbooks-with-books .card .card-action a {
-			float:right;
-			width: 45px;
-			height: 16px;
+		.card-hint {
+			padding-top: 10px;
+			display: inline-block;
 			font-size: 12px;
+			font-weight: 400;
+		}
+		.title-hint {
+			display: inline-block;
+			font-size: 15px;
+			font-weight: 500;
+		}
+		._cancel-btn {
+			display: inline-block;
+			font-size: 13px;
 			font-weight: 900;
-			text-align: center;
 			color: #64637c;
+			margin: 0 !important;
+			padding-left: 10px;
+			padding-right: 10px;
 		}
-		#sell-textbooks-with-books .card .card-content {
-			min-height: 130px;
+		.book-card .card-content {
+			min-height: 140px;
 		}
-	#sell-textbooks-with-books .stars-block i {
-		font-size: 15px;
-		color:#179f87;
-	}
-	#sell-textbooks-with-books .message {
-		position: absolute;
+
+		.book-card .stars-block i {font-size: 15px !important;}
+
+		.book-card .card-action {
+			padding-top: 10px;
+			padding-bottom: 10px;
+			padding-right: 10px;
+		}
+
+		.book-card-description {
+			margin-left: 25px;
+			margin-top: -5px;
+		}
+
+		.book-card-description ._isbn {margin-top: 5px;}
+
+
+	.message-btn {
+		position: fixed;
 		display: block;
 		right: 5%;
-		background-color: #28b361;
-		height: 55px;
-		width: 50px;
+		bottom: 5%;
 		border-radius: 100%;
+		width: 50px;
+		height: 50px;
 	}
-	#sell-textbooks-with-books .message i {
+	.message-btn i {
 		display: block;
 		top: 9px;
 		position: absolute;
@@ -305,28 +319,7 @@ body {
 		right: 0;
 	}
 
-
-@media(max-width:1200px) {
-	#sell-textbooks-with-books .card-container {
-		width:350px !important;
-		margin-right:35px;
-		margin-bottom:40px;
-	}
-}
-@media(max-width:580px) {
-	#sell-textbooks-with-books .input-with-arrow {
-		width: 320px;
-	}
-	#sell-textbooks-with-books .card {
-		width: 310px;
-		margin-right:0;
-	}
-	#sell-textbooks-with-books .card-container {
-		width:310px !important;
-		margin-right:35px;
-		margin-bottom:40px;
-	}
-}
+	.green {background-color: #28b361 !important;}
 /* end Sell Textbooks with books*/
 
 
@@ -509,7 +502,7 @@ body {
 		right: 19px;
 		top: 10px;
 		cursor: pointer;
-		color:#c9c9c9;
+		color: #c9c9c9;
 	}
 	#slide-out .notifications-title {
 		font-family: Roboto;
@@ -617,7 +610,7 @@ body {
 	.txt-grey-1 {color: #64637c;}
 	.txt-grey-2 {color: #9291a3;}
 	.txt-grey-3 {color: #cccfd1;}
-	.txt-grey-4 {color: #a2b4bc;}
+	.txt-grey-4 {color: #adadb9;}
 	.txt-grey-5 {color: #4a4a4a;}
 
 	.txt-size-10 {font-size: 10px;}
@@ -627,6 +620,7 @@ body {
 
 	.txt-green {color: #28b361 !important;}
 	.txt-green-2 {color: #179f87;}
+	.txt-green-3 {color: #3ab96e !important;}
 
 	._italic {font-style: italic;}
 	.txt-100 {font-weight: 100;}
