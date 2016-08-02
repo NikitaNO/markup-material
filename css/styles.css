@@ -645,7 +645,7 @@ body {
 		display: block;
 	}
 
-	
+
 	.search-results .book-card {margin-bottom: 40px;}
 	@media (max-width: 1250px) {
 		.search-results .book-card.l6 {
@@ -722,6 +722,80 @@ body {
 
 
 
+/* 9 Notifications sidebar*/
+.schedule {
+	width: 100%;
+	height: 260px;
+	/*opacity: 0.2;*/
+	background-color: rgba(84, 94, 101, 0.2);
+	padding-top:52px;
+	padding-bottom:65px;
+}
+.schedule p {
+	width: 255px;
+	font-size: 14px;
+	font-weight: 600;
+	font-style: italic;
+	color: #545e65;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.schedule-autocomplete {
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.schedule-autocomplete #autocompleteState {
+	margin-left: 55px;
+}
+.card-amazon .card {
+	background-color: rgba(254, 189, 104, 0.11);
+}
+.card-amazon .card .card-action img {
+	width: 95px;
+	display: block;
+	top: 16px;
+	position: absolute;
+}
+.help-block {
+	padding-top: 30px !important;
+}
+.help-block i {
+	vertical-align: middle;
+}
+/* end Notifications sidebar*/
+
+
+/* 9 Notifications sidebar*/
+.collegues .users img {
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	margin: auto;
+	display: block;
+}
+.collegues .users .l1 {
+	margin-right:10px;
+}
+.collegues .users p {
+	text-align: center;
+}
+.collegues .users .more-students {
+
+	font-size: 18px;
+	font-weight: 600;
+	color: #545e65;
+	width: 60px;
+	height: 60px;
+	line-height: 3.3;
+	text-align: center;
+	border-radius: 100%;
+	margin: auto;
+	background-color: rgba(216, 216, 216, 0.51);
+}
+/* end Notifications sidebar*/
+
+
+
 /* General Styles */
 	[type="radio"] + label,
 	[type="checkbox"] + label {
@@ -738,6 +812,109 @@ body {
 
 	.line-through {text-decoration: line-through;}
 
+.schedule .select-wrapper input.select-dropdown {
+		width: 275px !important;
+		height: 46px !important;
+		border-radius: 2px !important;
+		background-color: #ffffff !important;
+		border-bottom: none !important;
+		padding: 0 20px;
+	}
+.schedule .dropdown-content {
+		position: absolute !important;
+		top: 50px !important;
+		left: 0px;
+		opacity: 1;
+	}
+.schedule .dropdown-content span {
+		color: #545e65 !important;
+		font-size: 14px !important;
+		font-weight: 400 !important;
+	}
+.schedule .select-wrapper span.caret {
+		z-index:1;
+	right: -15px !important;
+}
+
+
+
+
+
+
+.schedule .autocomplete-content {
+	position: absolute;
+	margin-top: -.9rem;
+	border-radius: 2px;
+	background-color: #fafafa;
+	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.24), 0 0 8px 0 rgba(0, 0, 0, 0.12);
+	margin-left: 55px;
+	width: 332px !important;
+}
+
+.schedule .autocomplete-content li {
+	clear: both;
+	color: rgba(0, 0, 0, 0.87);
+	cursor: pointer;
+	line-height: 0;
+	width: 100%;
+	text-align: left;
+	text-transform: none;
+	padding: 20px;
+}
+
+.schedule .autocomplete-content li > span {
+	display: block;
+	font-size: 12px;
+	font-weight: 400;
+	color: #545e65;
+	padding: 0;
+	padding-bottom: 8px;
+
+}
+.schedule .autocomplete-content li > p {
+	font-size: 14px;
+	font-weight: 500;
+	color: #545e65;
+	font-style: normal;
+}
+
+.schedule .autocomplete-content li > span .highlight {
+	color: #000000;
+}
+
+.schedule .autocomplete-content li img {
+	height: 52px;
+	width: 52px;
+	padding: 5px;
+	margin: 0 15px;
+}
+
+.schedule .autocomplete-content li:hover {
+	background-color: #eeeeee;
+	cursor: pointer;
+}
+
+.schedule .inputFields {
+	width: 292px !important;
+	height: 46px !important;
+	border-radius: 2px !important;
+	background-color: #ffffff !important;
+	border-bottom: 0 !important;
+	font-size: 14px;
+	font-weight: 400;
+	color: #545e65;
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+}
+.schedule .autocomplete:focus, .schedule .autocomplete:active {
+	border-bottom: 0 !important;
+	box-shadow:none !important;
+}
+
+
+
+
+
 	._relative {position: relative !important;}
 
 	.padding-top {padding-top: 30px;}
@@ -751,9 +928,14 @@ body {
 	.no-padding {padding: 0 !important;}
 	.padding-left-0 {padding-left: 0 !important;}
 	.no-margin {margin: 0 !important;}
+
 	.margin-bottom-0 {margin-bottom: 0 !important;}
-	.margin-bottom-5 {margin-bottom: 5px !important;}
 	.margin-top-0 {margin-top: 0 !important;}
+
+	.margin-bottom-5 {margin-bottom: 5px !important;}
+	.margin-top-5 {margin-top: 5px !important;}
+
+
 	._clear {clear: both;}
 
 
@@ -780,12 +962,16 @@ body {
 	}
 
 	.float-none {float: none !important;}
+	.float-right {float: right !important;}
+	.float-left {float: left !important;}
 	.opacity-05 {opacity: 0.5;}
+
+	.padding-top-5 {padding-top: 5px !important;}
 
 	.txt-center {text-align:center;}
 	.txt-right {text-align:right;}
 
-	.txt-grey-0 {color: #545e65;}
+	.txt-grey-0 {color: #545e65 !important;}
 	.txt-grey-1 {color: #64637c;}
 	.txt-grey-2 {color: #9291a3;}
 	.txt-grey-3 {color: #cccfd1;}
@@ -794,8 +980,10 @@ body {
 
 	.txt-size-10 {font-size: 10px;}
 	.txt-size-11 {font-size: 11px;}
-	.txt-size-12 {font-size: 12px;}
+	.txt-size-12 {font-size: 12px !important;}
+	.txt-size-13 {font-size: 13px !important;}
 	.txt-size-14 {font-size: 14px;}
+	.txt-size-26 {font-size: 26px;}
 	.txt-size-18 {font-size: 18px;}
 
 	.txt-green {color: #28b361 !important;}
@@ -806,7 +994,7 @@ body {
 	.txt-100 {font-weight: 100;}
 	.txt-200 {font-weight: 200;}
 	.txt-300 {font-weight: 300;}
-	.txt-400 {font-weight: 400;}
+	.txt-400 {font-weight: 400 !important;}
 	.txt-500 {font-weight: 500;}
 	.txt-600 {font-weight: 600;}
 	.txt-700 {font-weight: 700;}
@@ -865,5 +1053,5 @@ body {
 		    width: 80%;
 		}
 	}
-	
+
 /* end Others */
