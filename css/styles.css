@@ -302,6 +302,7 @@ body {
 		}
 
 		.book-card .stars-block i {font-size: 15px !important;}
+		.book-card .stars-block .text {font-size: 13px !important;}
 
 		.book-card .card-action {
 			padding-top: 10px;
@@ -502,60 +503,148 @@ body {
 
 
 
+/* 6 Search Function Results */
+	.search-block {
+		position: relative;
+		left: -18px !important;
+	}
+	.search-block .search-logo {
+		font-size: 30px;
+		font-weight: 400 !important;
+		top: 2px;
+	}
+
+	.search-block .search-input {
+		font-size: 22px;
+		font-weight: 400 !important;
+		width: 70% !important;
+	}
+	.search-block .search-input:focus {color: #4a4a4a;}
+
+
+	.search-block-hint {
+		color: #b7b7b7;
+		font-weight: 300;
+		font-size: 20px;
+		text-align: right;
+	}
+
+	.search-options {
+		margin: 5px 0 20px;
+	}
+
+	.search-options input {
+		border: none !important;
+	}
+	.search-options input,
+	.search-options span.caret {
+		color: #b2b1be;
+	}
+
+	.search-results .book-img-2 img {top: -3px;}
+
+	.new-price {
+		display: inline-block;
+		color: #64637c;
+		font-weight: 500;
+		font-size: 34px;
+	}
+	.old-price {
+		display: inline-block;
+		color: #929292;
+		font-weight: 400;
+		font-size: 12px;
+		margin-left: 10px;
+		line-height: 16px;
+	}
+
+
+	.sidebar-1 {
+		padding-top: 108px !important;
+	}
+
+	.sidebar-1 [type="checkbox"] + label {
+		padding-left: 32px !important;
+		font-size: 18px;
+		line-height: 21px;
+		margin-bottom: 15px;
+		clear: both;
+		display: block;
+	}
+
+	
+	.search-results .book-card {margin-bottom: 40px;}
+	@media (max-width: 1250px) {
+		.search-results .book-card.l6 {
+			width: 100%;
+		}
+	}
+
+	@media (max-width: 992px) {
+		.sidebar-1 {padding: 0 0 30px 15px !important;}
+
+		.sidebar-1 [type="checkbox"] + label {
+			display: inline-block;
+		}
+
+	}
+/* end Search Function Results */
+
+
 
 /* 9 Notifications sidebar*/
-#slide-out {
-	padding-left:0;
-	padding-right:0;
-}
-	#slide-out .row {
-		padding-left: 35px;
-		padding-right: 35px;
+	#slide-out {
+		padding-left:0;
+		padding-right:0;
 	}
-	#slide-out .close-notifications {
-		display: block;
-		position: absolute;
-		right: 19px;
-		top: 10px;
-		cursor: pointer;
-		color: #c9c9c9;
-	}
-	#slide-out .notifications-title {
-		font-family: Roboto;
-		font-size: 18px;
-		font-weight: 500;
-		color: #64637c;
-		margin-top: 30px;
-	}
-	#slide-out .circle-img {
-		border-radius: 100%;
-		width: 63px;
-		height: 63px;
-	}
-	#slide-out .check-notification {
-		position: absolute;
-		margin-left: 10px;
-		margin-top: -2px;
-	}
-		#slide-out .check-notification i {
-			width: 17.6px;
-			height: 13.4px;
-			color: #28b361;
+		#slide-out .row {
+			padding-left: 35px;
+			padding-right: 35px;
 		}
-	#slide-out .product-block img {
-		width: 60px;
-		height: 75.8px;
-	}
-	#slide-out .view-all-notifications {
-		padding-top:10px;
-		height: 83px;
-		background-color: #f0f0f0;
-		position: static;
-		width: 100%;
-		bottom: 0;
-		left: 0;
-		right: 0;
-	}
+		#slide-out .close-notifications {
+			display: block;
+			position: absolute;
+			right: 19px;
+			top: 10px;
+			cursor: pointer;
+			color: #c9c9c9;
+		}
+		#slide-out .notifications-title {
+			font-family: Roboto;
+			font-size: 18px;
+			font-weight: 500;
+			color: #64637c;
+			margin-top: 30px;
+		}
+		#slide-out .circle-img {
+			border-radius: 100%;
+			width: 63px;
+			height: 63px;
+		}
+		#slide-out .check-notification {
+			position: absolute;
+			margin-left: 10px;
+			margin-top: -2px;
+		}
+			#slide-out .check-notification i {
+				width: 17.6px;
+				height: 13.4px;
+				color: #28b361;
+			}
+		#slide-out .product-block img {
+			width: 60px;
+			height: 75.8px;
+		}
+		#slide-out .view-all-notifications {
+			padding-top:10px;
+			height: 83px;
+			background-color: #f0f0f0;
+			position: static;
+			width: 100%;
+			bottom: 0;
+			left: 0;
+			right: 0;
+		}
 /* end Notifications sidebar*/
 
 
@@ -574,6 +663,7 @@ body {
 	}
 
 
+	.line-through {text-decoration: line-through;}
 
 	._relative {position: relative !important;}
 
@@ -633,6 +723,7 @@ body {
 	.txt-size-11 {font-size: 11px;}
 	.txt-size-12 {font-size: 12px;}
 	.txt-size-14 {font-size: 14px;}
+	.txt-size-18 {font-size: 18px;}
 
 	.txt-green {color: #28b361 !important;}
 	.txt-green-2 {color: #179f87;}
@@ -695,4 +786,11 @@ body {
 	}
 
 	.teal {background-color: #179f87 !important;}
+
+	@media only screen and (min-width: 993px) {
+		.container {
+		    width: 80%;
+		}
+	}
+	
 /* end Others */

@@ -17,6 +17,7 @@
      });
 
 
-    $("#select-place-to-meet").material_select();
+    $("#search-by-title").material_select();
+    $("#search-by-price").material_select();
 
   });
