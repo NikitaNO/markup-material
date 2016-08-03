@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>17.shopping-cart.html</title>
+</head>
+<body>
+
+<div class="row shopping-cart">
+
+    <div class="padding-top _clear"></div>
+    <div class="padding-top _clear"></div>
+
+    <div class="container">
+        <div class="col s12 m12 l12 steps">
+            <div class="col s1 m1 l1 no-padding"></div>
+            <div class="col s3 m3 l3 no-padding max-w-190">
+                <span class="step-point">
+                    <i class="material-icons">done</i>
+                </span>
+                <span class="txt-grey-0 txt-400 txt-size-14 opacity-07 align-super">&nbsp; My items</span>
+                <hr class="hr align-middle">
+            </div>
+            <div class="col s4 m4 l4 no-padding max-w-240">
+                <span class="step-point">
+                    2
+                </span>
+                <span class="txt-grey-0 txt-400 txt-size-14">&nbsp; Payment method</span>
+                <hr class="hr align-sub">
+            </div>
+            <div class="col s4 m4 l4 no-padding max-w-240">
+                <span class="step-point inactive">
+                    3
+                </span>
+                <span class="txt-grey-0 txt-400 txt-size-14 opacity-07">&nbsp; Contact seller(s)</span>
+                <hr class="hr align-sub">
+            </div>
+        </div>
+
+        <div class="padding-top _clear"></div>
+
+        <div class="col s12 m12 l6">
+            <div class="padding-top _clear"></div>
+            <h3 class="title-1 txt-green txt-size-20">Choose your payment method</h3>
+            <div>&nbsp;</div>
+
+            <div class="col s12 m12 l12 my-wallet">
+                <div class="padding-top-2 _clear"></div>
+                <div class="col s1 m1 l1">
+                    <p>
+                        <input class="with-gap radio-check" name="group1" type="radio" id="test3"  />
+                        <label for="test3"></label>
+                    </p>
+                </div>
+                <div class="col s8 m8 l8">
+                    <div class="col s12 m12 l12 no-padding">
+                        <p class="txt-size-16 txt-500 txt-grey-0 margin-bottom-0">My Wallet</p>
+                    </div>
+                    <div class="col s12 m12 l12 no-padding txt-size-10 txt-400 txt-grey-0 opacity-08 _italic benefits">
+                        Benefits of paying with the StdeTree wallet lorem ipsum dolor si amet lorm ipsum dolor.
+                    </div>
+                    <div class="padding-top-2 _clear"></div>
+                    <div class="col s12 m12 l12 no-padding">
+                        <a href="" class="txt-green-2 txt-900 txt-size-12">REFILL</a>
+                    </div>
+                </div>
+                <div class="col s3 m3 l3">
+                    <p class="txt-grey-0 txt-900 txt-size-26">$50</p>
+                </div>
+            </div>
+
+            <div class="_clear padding-top-5"></div>
+            <div class="_clear padding-top-5"></div>
+            <div class="_clear padding-top-5"></div>
+
+            <div class="col s12 m12 l12 my-wallet my-card no-padding">
+                <div class="col s12 m12 l12 no-padding choose-credit-card">
+
+                    <div class="padding-top-5 _clear"></div>
+                    <div class="padding-top-5 _clear"></div>
+
+                    <div class="col s1 m1 l1">
+                        <p>
+                            <input class="with-gap radio-check" name="group1" type="radio" id="test4"  />
+                            <label for="test4"></label>
+                        </p>
+                    </div>
+                    <div class="col s8 m8 l8">
+                        <div class="col s12 m12 l12 no-padding">
+                            <p class="txt-size-16 txt-500 txt-grey-0 margin-bottom-0">Credit Card</p>
+                        </div>
+                        <div class="col s12 m12 l12 no-padding txt-size-10 txt-400 txt-grey-0 opacity-08 _italic benefits">
+                            Safe money transfer using your bank account. Visa, Mastercard, Amazon or American Express
+                        </div>
+                    </div>
+                    <div class="col s3 m3 l3">
+                        <div class="padding-top _clear"></div>
+                        <div class="col s4 m4 l4 no-padding">
+                            <img src="img/visa.png" alt="">
+                        </div>
+                        <div class="col s4 m4 l4 no-padding">
+                            <img src="img/visa.png" alt="">
+                        </div>
+                        <div class="col s4 m4 l4 no-padding">
+                            <img src="img/visa.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m12 l12 padding-right-20 padding-left-20">
+
+                    <div class="padding-top-2 _clear"></div>
+                    <div class="padding-top-5 _clear"></div>
+
+                    <div class="row">
+                        <div class="input-field col s7">
+                            <input id="card_number" type="number" class="validate">
+                            <label for="card_number">Credit Card Number</label>
+                        </div>
+
+                        <div class="col s1"></div>
+
+                        <div class="input-field col s3">
+                            <input id="date" type="text" class="validate">
+                            <label for="date">MM / YY</label>
+                        </div>
+
+                        <div class="col s1"></div>
+                        <div class="padding-top-2 _clear"></div>
+                        <div class="padding-top-5 _clear"></div>
+
+                        <div class="input-field col s3">
+                            <input id="cvc" type="number" class="validate">
+                            <label for="cvc">CVC</label>
+                        </div>
+
+                        <div class="padding-top-2 _clear"></div>
+                        <div class="padding-top-5 _clear"></div>
+
+                        <div class="col s12 m12 l12">
+                            <p>
+                                <input type="checkbox" id="test6" />
+                                <label class="txt-grey-0 txt-400 txt-size-12" for="test6">Save Card</label>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="padding-top _clear"></div>
+            <h3 class="title-1 txt-grey-0 txt-size-16">Saved payment methods</h3>
+            <div>&nbsp;</div>
+
+            <div class="col s12 m12 l12 saved-payment-method">
+                <div class="padding-top-5 _clear"></div>
+                <div class="padding-top-5 _clear"></div>
+                <div class="col s1 m1 l1">
+                    <p>
+                    <div class="padding-top-5 _clear"></div>
+                        <input class="with-gap" name="" type="radio" id="test5"  />
+                        <label for="test5"></label>
+                    </p>
+                </div>
+                <div class="col s6 m6 l6">
+                    <p class="padding-left-10">
+                        <img src="img/visa.png" alt="">
+                    </p>
+                </div>
+                <div class="col s5 m5 l5 no-padding">
+                    <p class="txt-500 txt-size-14 txt-grey-0 margin-bottom-0">**** **** **** 1234</p>
+                    <div class="col s12 m12 l12 txt-right txt-500 txt-size-12 txt-grey-0 opacity-05 padding-right-20">Visa  - Exp. 11/17</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s12 m12 l6">
+            <div class="padding-top _clear"></div>
+            <h3 class="title-1 txt-green txt-size-20">Summary</h3>
+            <div>&nbsp;</div>
+
+            <div class="col s12 m12 l12 no-padding">
+                <p class="no-margin txt-grey-1 txt-size-14 opacity-05 txt-500">COMM 212</p>
+                <div class="col s8 m10 l10 no-padding txt-500 txt-size-16 txt-grey-1">Bussiness Communication</div>
+                <div class="col s4 m2 l2 no-padding txt-500 txt-right txt-size-16 txt-grey-1">$35.00</div>
+            </div>
+            <div class="padding-top _clear"></div>
+            <div class="col s12 m12 l12 no-padding">
+                <p class="no-margin txt-grey-1 txt-size-14 opacity-05 txt-500">COMM 212</p>
+                <div class="col s8 m10 l10 no-padding txt-500 txt-size-16 txt-grey-1">Bussiness Communication</div>
+                <div class="col s4 m2 l2 no-padding txt-500 txt-right txt-size-16 txt-grey-1">$35.00</div>
+            </div>
+            <div class="padding-top _clear"></div>
+            <hr class="hr opacity-03">
+            <div class="padding-top _clear"></div>
+            <div class="col s12 m12 l12 no-padding">
+                <div class="col s8 m10 l10 no-padding txt-500 txt-size-14 txt-grey-1">Some taxes</div>
+                <div class="col s4 m2 l2 no-padding txt-right txt-500 txt-size-14 txt-grey-1">$2.05</div>
+            </div>
+            <div class="padding-top _clear"></div>
+            <hr class="hr opacity-03">
+            <div class="padding-top _clear"></div>
+            <div class="col s12 m12 l12 no-padding">
+                <div class="col s8 m10 l10 no-padding txt-500 txt-size-20 txt-grey-1">Total</div>
+                <div class="col s4 m2 l2 no-padding txt-500 txt-right txt-size-24 txt-grey-1">$52.00</div>
+                <div class="col s5 m3 l3 right txt-right no-padding txt-400 txt-size-14 txt-grey-0 opacity-08"><strike>$67</strike> (list price)</div>
+            </div>
+
+            <div class="padding-top-5 _clear"></div>
+            <div class="padding-top-5 _clear"></div>
+
+            <p class="txt-right txt-grey-0 opacity-08 txt-400 txt-size-12">Paying with StudeTree Wallet</p>
+
+            <div class="right">
+                <button class="waves-effect waves-light btn-circled btn scan-btn">PLACE YOUR ORDER</button>
+            </div>
+            <div class="padding-top-5 _clear"></div>
+            <div class="padding-top-5 _clear"></div>
+            <p class="txt-right txt-grey-5 _italic txt-400 txt-size-14 max-w-250 right">
+                * You will not be charged until you approve the transaction.
+            </p>
+        </div>
+
+        <div class="col s12 m12 l12 questions">
+            <div class="padding-top _clear"></div>
+            <div class="row padding-left-50 padding-right-50">
+                <p class="txt-500 txt-size-20 txt-green">Questions</p>
+                <div class="col s6 m6 l6 no-padding">
+                    <div class="col s12 m12 l12 no-padding">
+                        <p class="txt-grey-5 txt-500 txt-size-16">How will I get my textbooks?</p>
+                        <p class="txt-grey-5 txt-400 txt-size-14 max-w-380">Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod,
+                            id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit.</p>
+                    </div>
+                    <div class="padding-top-2 _clear"></div>
+                    <div class="col s12 m12 l12 no-padding">
+                        <p class="txt-grey-5 txt-500 txt-size-16">How do I contact the seller?</p>
+                        <p class="txt-grey-5 txt-400 txt-size-14 max-w-380">Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui.
+                            In malesuada enim in dolor euismod, id commodo mi consectetur.</p>
+                    </div>
+                </div>
+                <div class="col s6 m6 l6 no-padding">
+                    <div class="col s12 m12 l12 no-padding">
+                        <p class="txt-grey-5 txt-500 txt-size-16">How will I get my textbooks?</p>
+                        <p class="txt-grey-5 txt-400 txt-size-14 max-w-380">Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod,
+                            id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit.</p>
+                    </div>
+                    <div class="padding-top-2 _clear"></div>
+                    <div class="col s12 m12 l12 no-padding">
+                        <p class="txt-grey-5 txt-500 txt-size-16">How do I contact the seller?</p>
+                        <p class="txt-grey-5 txt-400 txt-size-14 max-w-380">Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod,
+                            id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="padding-top _clear"></div>
+    </div>
+
+
+
+    <a class="close-btn">
+        <i class="material-icons">close</i>
+    </a>
+
+    <button class="waves-effect waves-light green btn-floating btn  message-btn">
+        <i class="material-icons">question_answer</i>
+    </button>
+</div>
+
+
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>
+

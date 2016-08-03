@@ -2,6 +2,7 @@
 
     // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
     $('.open-user-profile').leanModal();
+    $('.open-cancel-transaction').leanModal();
 
     $(".open-menu-btn").click( () => {
     	$(".main-menu").toggleClass("opened");
@@ -53,6 +54,13 @@
      }];
 
      $('.autocomplete').data('array', stateData);
+
+
+
+     $('.radio-check').click(function() {
+         if (this.id == 'test4' && this.checked) $('.my-card').addClass('my-card-show');
+         else $('.my-card').removeClass('my-card-show');
+     });
 
 
 

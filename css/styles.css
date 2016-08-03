@@ -565,6 +565,21 @@ body {
 			font-size: 25px;
 			right: 0;
 		}
+.input-with-arrow {
+	min-width: 310px !important;
+}
+#icon_prefix {
+	min-width: 290px !important;
+}
+.textbooks-filled-description {
+	max-width: 261px;
+	height: 60px;
+	font-size: 14px;
+	font-weight: 400;
+	font-style: italic;
+	line-height: 1.43;
+	color: #64637c;
+}
 
 
 	@media(max-width:1200px) {
@@ -739,6 +754,8 @@ body {
 		}
 /* end Notifications sidebar*/
 
+
+
 /* 9 Notifications sidebar*/
 	.schedule {
 		width: 100%;
@@ -812,6 +829,145 @@ body {
 
 
 
+/* 9 Notifications sidebar*/
+.close-btn {
+	display: block;
+	position: absolute;
+	top: 65px;
+	cursor: pointer;
+	right: 78px;
+	color: #000000;
+	border-radius: 100%;
+}
+	.close-btn i {
+		font-size: 30px;
+	}
+.steps {
+	padding: 0 174px !important;
+}
+.step-point {
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+	background-color: #545e65;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	padding-top: 3px;
+}
+.steps .hr {
+	width: 73px;
+	height: 0px;
+	opacity: 0.3;
+	border: solid 1px #979797;
+	display: inline-block;
+	margin-top: -5px;
+	margin-left: 5px;
+}
+.step-point.inactive {
+	background-color: #999fa3;
+}
+.align-sub {
+	vertical-align: sub;
+}
+.my-wallet {
+	max-width: 464px !important;
+	height: 132px;
+	border-radius: 2px;
+	background-color: rgba(40,179,97,0.07);
+}
+	.my-wallet .benefits {
+		max-width: 234px;
+	}
+.my-wallet [type="radio"]:checked+label:after, .my-wallet [type="radio"].with-gap:checked+label:before,
+.my-wallet [type="radio"].with-gap:checked+label:after {
+	border: 2px solid #545e65;
+}
+.my-wallet [type="radio"]:checked+label:after, .my-wallet [type="radio"].with-gap:checked+label:after {
+	background-color: #545e65;
+	z-index: 0;
+}
+.saved-payment-method [type="radio"]:checked+label:after, .saved-payment-method [type="radio"].with-gap:checked+label:before,
+.saved-payment-method [type="radio"].with-gap:checked+label:after {
+	border: 2px solid #545e65;
+}
+.saved-payment-method [type="radio"]:checked+label:after, .saved-payment-method [type="radio"].with-gap:checked+label:after {
+	background-color: #545e65;
+	z-index: 0;
+}
+.my-card {
+	height: 120px !important;
+	/*height: auto !important;*/
+	overflow-y:hidden;
+	background-color:white !important;
+	border: solid 2px rgba(84, 94, 101, 0.13);
+}
+.my-card-show {
+	height: auto !important;
+	overflow-y:visible !important;
+}
+	.my-card input, .my-card .input-field {
+		margin:0;
+	}
+	.my-card .choose-credit-card {
+		background-color: rgba(84, 94, 101, 0.07);
+		min-height: 120px !important;
+	}
+	.my-card .choose-credit-card img {
+		width: 23px;
+		height: 14px;
+	}
+.saved-payment-method {
+	max-width: 345px;
+	height: 79px;
+	border-radius: 2px;
+	background-color: rgba(84, 94, 101, 0.07);
+}
+	.saved-payment-method img {
+		width: 51px;
+		height: 31px;
+	}
+.questions {
+	min-height: 418px;
+	border-radius: 6px;
+	background-color: rgba(84, 94, 101, 0.11);
+	margin-top:230px;
+}
+
+@media(max-width: 375px) {
+	.shopping-cart .container {
+		max-width:100% !important;
+		width:100% !important;
+	}
+}
+@media(max-width: 1024px) {
+	.steps {
+		padding: 0 40px !important;
+	}
+}
+/* end Notifications sidebar*/
+
+
+
+/* 9 Notifications sidebar*/
+#cancel-transaction-modal {
+	width: 485px;
+	height: 543px;
+}
+#cancel-transaction-modal [type="radio"]+label:before, #cancel-transaction-modal [type="radio"]+label:after {
+	width: 20px;
+	height: 20px;
+}
+/* end Notifications sidebar*/
+
+
+
+/* General Styles */
+	[type="radio"] + label,
+	[type="checkbox"] + label {
+		color: #545e65 !important;
+		padding-left: 25px;
+		margin-right: 20px;
 /* 10 My Textbooks With Books */
 
 	.user-miniature img {
@@ -861,6 +1017,8 @@ body {
 		left: 0;
 		width: 100%;
 	}
+
+	.black-text {color:black;}
 
 	._progress-bar .progress-line {
 		transition: .2s;
@@ -1020,6 +1178,10 @@ body {
 
 	._clear {clear: both;}
 
+	.max-w-190 {max-width: 190px;}
+	.max-w-240 {max-width: 240px !important;}
+	.max-w-250 {max-width: 250px !important;}
+	.max-w-380 {max-width: 380px !important;}
 
 	.title-1 {
 		font-size: 25px;
@@ -1046,12 +1208,25 @@ body {
 	.float-none {float: none !important;}
 	.float-right {float: right !important;}
 	.float-left {float: left !important;}
+	.opacity-03 {opacity: 0.3;}
 	.opacity-05 {opacity: 0.5;}
+	.opacity-07 {opacity: 0.7;}
+	.opacity-08 {opacity: 0.8;}
+
+	.align-super {vertical-align:super;}
+	.align-middle {vertical-align: middle;}
 
 	.padding-top-5 {padding-top: 5px !important;}
+	.padding-left-10 {padding-left: 10px !important;}
+	.padding-right-10 {padding-right: 10px !important;}
+	.padding-left-20 {padding-left: 20px !important;}
+	.padding-left-50 {padding-left: 50px !important;}
+	.padding-right-50 {padding-right: 50px !important;}
+	.padding-right-20 {padding-right: 20px !important;}
 
 	.txt-center {text-align:center;}
 	.txt-right {text-align:right;}
+	.txt-left {text-align:left;}
 
 	.txt-grey-0 {color: #545e65 !important;}
 	.txt-grey-1 {color: #64637c;}
@@ -1065,8 +1240,13 @@ body {
 	.txt-size-12 {font-size: 12px !important;}
 	.txt-size-13 {font-size: 13px !important;}
 	.txt-size-14 {font-size: 14px;}
+	.txt-size-16 {font-size: 16px;}
 	.txt-size-26 {font-size: 26px;}
 	.txt-size-18 {font-size: 18px;}
+	.txt-size-19 {font-size: 19px;}
+	.txt-size-20 {font-size: 20px;}
+	.txt-size-24 {font-size: 24px;}
+	.txt-size-26 {font-size: 26px;}
 
 	.txt-green {color: #28b361 !important;}
 	.txt-green-2 {color: #179f87;}

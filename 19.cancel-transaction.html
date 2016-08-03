@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>19.cancel-transaction</title>
+</head>
+<body>
+
+<!-- Modal Trigger -->
+<a class="waves-effect waves-light btn modal-trigger  _center open-cancel-transaction" href="#cancel-transaction-modal">Open Cancel Transaction Modal</a>
+
+<!-- Modal Structure -->
+<div id="cancel-transaction-modal" class="modal white">
+    <button class="modal-action modal-close btn-floating waves-effect waves-light btn-flat right circle  _close-btn"> <i class="material-icons black-text">close</i> </button>
+
+    <div class="row">
+        <div class="padding-top _clear"></div>
+        <div class="col s1 m1 l1"></div>
+        <div class="col s10 m10 l10 txt-center">
+            <p class="txt-size-26 _italic txt-grey-1 txt-400 margin-bottom-0">Well, this is embarrasing</p>
+            <div class="padding-top-5 _clear"></div>
+            <p class="txt-size-18 txt-grey-1 txt-400 no-margin">Tell us why you want to cancel the transaction and we’ll do a better job next time</p>
+        </div>
+        <div class="padding-top _clear"></div>
+        <div class="padding-top _clear"></div>
+        <div class="col s1 m1 l1"></div>
+        <div class="col s1 m1 l1"></div>
+        <div class="col s10 m10 l10 txt-center">
+            <div class="col s8 m8 l8 txt-size-19 txt-left">
+                The textbook was not good
+            </div>
+            <div class="col s4 m4 l4 txt-size-19">
+                <input class="with-gap" name="cancel-transaction" type="radio" id="test7"  />
+                <label for="test7"></label>
+            </div>
+
+            <div class="padding-top-2 _clear"></div>
+            <div class="padding-top-2 _clear"></div>
+
+            <div class="col s8 m8 l8 txt-size-19 txt-left">
+                The seller never replied
+            </div>
+            <div class="col s4 m4 l4 txt-size-19">
+                <input class="with-gap" name="cancel-transaction" type="radio" id="test8"  />
+                <label for="test8"></label>
+            </div>
+
+            <div class="padding-top-2 _clear"></div>
+            <div class="padding-top-2 _clear"></div>
+
+            <div class="col s8 m8 l8 txt-size-19 txt-left">
+                I don’t need it anymore
+            </div>
+            <div class="col s4 m4 l4 txt-size-19">
+                <input class="with-gap" name="cancel-transaction" type="radio" id="test9"  />
+                <label for="test9"></label>
+            </div>
+        </div>
+        <div class="col s1 m1 l1"></div>
+        <div class="padding-top _clear"></div>
+        <button class="waves-effect _center waves-light btn-circled btn scan-btn">SUBMIT FEEDBACK</button>
+    </div>
+
+</div>
+
+
+
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>
+
