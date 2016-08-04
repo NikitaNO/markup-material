@@ -1092,6 +1092,19 @@ body {
 /* end My Schedule Without Books */
 
 
+/* 22 Contact Seller Cancel modal */
+#contact-seller-cancel {
+	width: 485px;
+	height: 385px;
+}
+	#contact-seller-cancel img {
+		width: 76px;
+		height: 76px;
+		border-radius: 100%;
+	}
+/* end Contact Seller Cancel modal */
+
+
 
 
 
@@ -1309,6 +1322,11 @@ body {
 	.txt-grey-3 {color: #cccfd1;}
 	.txt-grey-4 {color: #adadb9;}
 	.txt-grey-5 {color: #4a4a4a;}
+	.txt-pink {color:#d94974;}
+
+	.pink {background-color:#d94974;}
+
+	.min-w-130 {min-width:130px;}
 
 	.txt-size-10 {font-size: 10px;}
 	.txt-size-11 {font-size: 11px;}
