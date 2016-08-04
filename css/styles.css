@@ -1035,6 +1035,19 @@ body {
 
 
 
+/* 23 Textbook Details */
+.textbook-details .user-avatar {
+	width: 38px;
+	height: 38px;
+	border-radius: 100%;
+}
+.textbook-details .stars-block i.txt-size-14 {
+	font-size: 14px !important;
+}
+/* end Textbook Details */
+
+
+
 /* 12 My Schedule Without Books */
 
 	.schedule-block {
@@ -1212,8 +1225,8 @@ body {
 	.padding-top-3 {padding-top: 5px;}
 
 	._center {
-		margin-left: auto;
-		margin-right: auto;
+		margin-left: auto !important;
+		margin-right: auto !important;
 		display: table;
 	}
 	.no-padding {padding: 0 !important;}
@@ -1226,6 +1239,8 @@ body {
 	.margin-bottom-5 {margin-bottom: 5px !important;}
 	.margin-top-5 {margin-top: 5px !important;}
 
+	.margin-left-10 {margin-left: 10px !important;}
+
 
 	._clear {clear: both;}
 
@@ -1233,6 +1248,10 @@ body {
 	.max-w-240 {max-width: 240px !important;}
 	.max-w-250 {max-width: 250px !important;}
 	.max-w-380 {max-width: 380px !important;}
+
+	.min-h-50 {min-height: 50px !important;}
+
+	.border-bottom-none {border-bottom:none !important;}
 
 	.title-1 {
 		font-size: 25px;
@@ -1275,6 +1294,9 @@ body {
 	.padding-right-50 {padding-right: 50px !important;}
 	.padding-right-20 {padding-right: 20px !important;}
 
+	.x-auto {overflow-x: auto;}
+	.max-w-row {width:100% !important;min-width:1080px !important;}
+
 	.txt-center {text-align:center;}
 	.txt-right {text-align:right;}
 	.txt-left {text-align:left;}
@@ -1298,6 +1320,7 @@ body {
 	.txt-size-20 {font-size: 20px;}
 	.txt-size-24 {font-size: 24px;}
 	.txt-size-26 {font-size: 26px;}
+	.txt-size-28 {font-size: 28px;}
 
 	.txt-green {color: #28b361 !important;}
 	.txt-green-2 {color: #179f87;}
