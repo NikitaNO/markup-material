@@ -57,12 +57,11 @@
 
 
 
+
      $('.radio-check').click(function() {
          if (this.id == 'test4' && this.checked) $('.my-card').addClass('my-card-show');
          else $('.my-card').removeClass('my-card-show');
      });
-
-
 
 
      var input_selector = 'input[type=text], input[type=password], input[type=email], input[type=url], input[type=tel], input[type=number], input[type=search], textarea';
