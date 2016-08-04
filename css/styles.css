@@ -781,10 +781,10 @@ body {
 	.schedule-autocomplete #autocompleteState {
 		margin-left: 55px;
 	}
-	.card-amazon .card {
+	.card-pink .card {
 		background-color: rgba(254, 189, 104, 0.11);
 	}
-	.card-amazon .card .card-action img {
+	.card-pink .card .card-action img {
 		width: 95px;
 		display: block;
 		top: 16px;
