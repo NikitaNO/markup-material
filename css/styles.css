@@ -1023,7 +1023,7 @@ body {
 		width: 100%;
 	}
 
-	.black-text {color:black;}
+	.black-text {color: black;}
 
 	._progress-bar .progress-line {
 		transition: .2s;
@@ -1275,6 +1275,7 @@ body {
 	.padding-right-50 {padding-right: 50px !important;}
 	.padding-right-20 {padding-right: 20px !important;}
 
+
 	.txt-center {text-align:center;}
 	.txt-right {text-align:right;}
 	.txt-left {text-align:left;}
@@ -1359,6 +1360,7 @@ body {
 		height: 100%;
 	}
 
+	.grey.darken-4 {background-color: #545e65 !important;}
 	.teal {background-color: #179f87 !important;}
 
 	@media only screen and (min-width: 993px) {
