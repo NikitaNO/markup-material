@@ -700,15 +700,16 @@ body {
 
 
 /* 9 Notifications sidebar*/
-	#slide-out {
-		padding-left:0;
-		padding-right:0;
+	.side-nav {
+		padding-left: 0;
+		padding-right: 0;
 	}
-		#slide-out .row {
+		.side-nav .row {
 			padding-left: 35px;
 			padding-right: 35px;
 		}
-		#slide-out .close-notifications {
+
+		.close-side-nav {
 			display: block;
 			position: absolute;
 			right: 19px;
@@ -716,33 +717,34 @@ body {
 			cursor: pointer;
 			color: #c9c9c9;
 		}
-		#slide-out .notifications-title {
+
+		.side-nav-title {
 			font-family: Roboto;
 			font-size: 18px;
 			font-weight: 500;
 			color: #64637c;
 			margin-top: 30px;
 		}
-		#slide-out .circle-img {
+		.side-nav .circle-img {
 			border-radius: 100%;
 			width: 63px;
 			height: 63px;
 		}
-		#slide-out .check-notification {
+		.side-nav .check-notification {
 			position: absolute;
 			margin-left: 10px;
 			margin-top: -2px;
 		}
-			#slide-out .check-notification i {
+			.side-nav .check-notification i {
 				width: 17.6px;
 				height: 13.4px;
 				color: #28b361;
 			}
-		#slide-out .product-block img {
+		.side-nav .product-block img {
 			width: 60px;
 			height: 75.8px;
 		}
-		#slide-out .view-all-notifications {
+		.side-nav .view-all-notifications {
 			padding-top:10px;
 			height: 83px;
 			background-color: #f0f0f0;
@@ -1013,6 +1015,17 @@ body {
 	.book-card.on-requesting .book-card-description .user-miniature,
 	.book-card.on-requesting .book-card-description .user-miniature * {opacity: 1;}
 
+
+	.book-card._disabled .book-img-2,
+	.book-card._disabled .book-card-description span,
+	.book-card._disabled .book-card-description h3,
+	.book-card._disabled .book-card-description div {opacity: .6;}
+
+	.book-card._disabled .card-hint,
+	.book-card._disabled .book-card-description .user-miniature,
+	.book-card._disabled .book-card-description .user-miniature * {opacity: 1 !important;}
+
+
 	._progress-bar {display: none;}
 	.book-card.on-requesting ._progress-bar {display: block;}
 
@@ -1036,20 +1049,19 @@ body {
 
 
 /* 23 Textbook Details */
-.textbook-details .user-avatar {
-	width: 38px;
-	height: 38px;
-	border-radius: 100%;
-}
-.textbook-details .stars-block i.txt-size-14 {
-	font-size: 14px !important;
-}
+	.textbook-details .user-avatar {
+		width: 38px;
+		height: 38px;
+		border-radius: 100%;
+	}
+	.textbook-details .stars-block i.txt-size-14 {
+		font-size: 14px !important;
+	}
 /* end Textbook Details */
 
 
 
 /* 12 My Schedule Without Books */
-
 	.schedule-block {
 		background-color: #dddfe1;
 		padding: 40px 0 40px;
@@ -1086,26 +1098,98 @@ body {
 		border-radius: 3px;
 	}
 	.input-2 ._hint:hover {background-color: rgba(0,0,0, .1);}
-
-
-
 /* end My Schedule Without Books */
 
 
-/* 22 Contact Seller Cancel modal */
-#contact-seller-cancel {
-	width: 485px;
-	height: 385px;
-}
-	#contact-seller-cancel img {
-		width: 76px;
-		height: 76px;
-		border-radius: 100%;
+
+/* 16 */
+	
+	.my-backpack,
+	.my-messages {
+		left: auto !important;
+		right: -1000px !important;
+		width: 400px;
+		transition: .5s;
 	}
+
+	.my-backpack.active,
+	.my-messages.active {
+		right: -420px !important;
+	}
+
+	.minimize-side-nav,
+	.menu-btn-side-nav {
+		cursor: pointer;
+		position: absolute;
+		top: 10px;
+		left: 10px;
+	}
+	.minimize-side-nav {
+		left: auto;
+		right: 45px;
+		top: 16px;
+	}
+
+	._message {width: 70%;}
+
+	._message ._text {
+		border: 1px solid #dfe2e6;
+		background-color: #fff;
+		border-radius: 10px;
+		padding: 20px;
+	}
+
+	
+	.input-message-wrapper {
+		position: absolute;
+		bottom: 60px;
+		left: 0;
+		width: 100%;
+	}
+	.input-message {
+		position: relative;
+		padding: 15px;
+		width: 100%;
+	}
+
+	.input-message input {
+		width: 100%;
+		padding: 15px !important;
+		border: 1px solid #bfe3ce !important;
+		border-radius: 5px;
+		height: 50px;
+		box-sizing: border-box !important;
+		margin: 0 !important;
+		background: #fff;
+	}
+
+	.input-message i {color: #bac1c4;}
+
+	.input-message ._attachment,
+	.input-message ._mood {
+		position: absolute;
+		top: 26px;
+		right: 21px;
+		cursor: pointer;
+	}
+
+	.input-message ._attachment { right: 50px;  }
+		
+/* end 16 */
+
+
+
+/* 22 Contact Seller Cancel modal */
+	#contact-seller-cancel {
+		width: 485px;
+		height: 385px;
+	}
+		#contact-seller-cancel img {
+			width: 76px;
+			height: 76px;
+			border-radius: 100%;
+		}
 /* end Contact Seller Cancel modal */
-
-
-
 
 
 
@@ -1253,6 +1337,8 @@ body {
 	.margin-top-5 {margin-top: 5px !important;}
 
 	.margin-left-10 {margin-left: 10px !important;}
+
+	.top-0 {top: 0 !important;}
 
 
 	._clear {clear: both;}
@@ -1404,6 +1490,7 @@ body {
 
 	.grey.darken-4 {background-color: #545e65 !important;}
 	.teal {background-color: #179f87 !important;}
+
 
 	@media only screen and (min-width: 993px) {
 		.container {

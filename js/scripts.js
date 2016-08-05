@@ -13,9 +13,21 @@
          edge: 'right', // Choose the horizontal origin
      });
 
-     $('.close-notifications').click(function() {
-         $('#slide-out').sideNav('hide');
+     $('.close-side-nav').click(function() {
+         $('.side-nav').sideNav('hide');
+         $(".side-nav.my-backpack").removeClass("active");
+         $(".side-nav.my-messages").removeClass("active");
      });
+
+
+     $('.my-backpack-btn').click(function() {
+         $(".side-nav.my-backpack").addClass("active");
+     });
+
+     $('.my-messages-btn').click(function() {
+         $(".side-nav.my-messages").addClass("active");
+     });
+
 
 
     $("#search-by-title").material_select();
