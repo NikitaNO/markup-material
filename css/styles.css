@@ -986,6 +986,9 @@ body {
 			/*width: 615px !important;*/
 		}
 	}
+	.shopping-cart .questions {
+		margin-top: 60px !important;
+	}
 /* end 17 - Shopping Cart Step 2 */
 
 
@@ -1487,6 +1490,14 @@ body {
 	.opacity-08 {opacity: 0.8;}
 
 	.align-super {vertical-align: super;}
+	.align-top {
+		vertical-align: top;
+		line-height: 2;
+	}
+
+	.more-vert {
+		margin-left: 10px;
+	}
 	.align-middle {vertical-align: middle;}
 	.align-top {vertical-align: top;}
 
@@ -1552,6 +1563,13 @@ body {
 	.txt-700 {font-weight: 700;}
 	.txt-800 {font-weight: 800;}
 	.txt-900 {font-weight: 900;}
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none !important;
+	margin: 0 !important;
+}
 /* end General Styles */
 
 
