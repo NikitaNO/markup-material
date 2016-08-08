@@ -986,7 +986,7 @@ body {
 			/*width: 615px !important;*/
 		}
 	}
-	.shopping-cart .questions {
+	.shopping-cart .questions, .my-items .questions {
 		margin-top: 60px !important;
 	}
 /* end 17 - Shopping Cart Step 2 */
@@ -1423,8 +1423,13 @@ body {
 		margin-right: auto !important;
 		display: table;
 	}
+
+	.box-shadow {box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);}
+
+	.strike-red {color:#d94974;}
 	.no-padding {padding: 0 !important;}
 	.padding-left-0 {padding-left: 0 !important;}
+	.padding-right-0 {padding-right: 0 !important;}
 	.no-margin {margin: 0 !important;}
 
 	.margin-bottom-0 {margin-bottom: 0 !important;}
