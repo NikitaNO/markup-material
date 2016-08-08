@@ -20,9 +20,13 @@
                 <img src="img/illustration.png" alt="date">
             </div>
             <div class="left col l5 m8 s8">
-                <h3 class="title-1 txt-grey-0">My course schedule</h3>
+
+                <div class="padding-top _clear"></div>
+
+                <!-- <h3 class="title-1 txt-grey-0">My course schedule</h3> -->
                 <div class="_italic txt-grey-1  txt-500">
-                    So, what's your schedule like this semester? Type in your courses and let us find your textbooks.
+                    <!-- So, what's your schedule like this semester? Type in your courses and let us find your textbooks. -->
+                    Enter your course schedule and we'll match you with the textbooks you need.
                 </div>
             </div>
         </div>
@@ -57,24 +61,25 @@
         <h3 class="title-1 txt-green">My courses - Fall 2016 &nbsp;<span class="title-hint txt-grey-2">(0 items)</span></h3>
 
         <div class="_italic txt-grey-4  txt-500">
-            Slow down tiger, you need to upload your course schedule first!
+            <!-- Slow down tiger, you need to upload your course schedule first! -->
+            You need to upload your course schedule first.
         </div>
     </div>
 
     <div class="row">
         <div class="padding-top _clear"></div>
-        <div class="col s8 m8 l8 no-padding">
+
+        <div class="col s12 m12 l6 no-padding">
             <h3 class="title-1 txt-green">Browse all textbooks &nbsp;<span class="title-hint txt-grey-2">(434 items)</span></h3>
         </div>
 
-
-        <div class="col s4 m4 l4 help-block">
+        <div class="col s12 m12 l6 help-block">
             <div class="col l4 m4 s4 no-padding">
                 <span class="float-right txt-grey-2"><i class="material-icons">search</i></span>
             </div>
 
-            <div class="search-options  col l6 m6 s12">
-                <div class="input-field col l6 m6 s12">
+            <div class="search-options  col l6 m12 s12">
+                <div class="input-field  w-75  left  margin-left-25">
                     <select id="search-by-title">
                         <option value="" disabled selected>Title</option>
                         <option value="1">Option 1</option>
@@ -84,7 +89,7 @@
                     <label></label>
                 </div>
 
-                <div class="input-field col l6 m6 s12">
+                <div class="input-field  w-75  left  margin-left-25">
                     <select id="search-by-price">
                         <option value="" disabled selected>Price</option>
                         <option value="1">Option 1</option>
@@ -135,6 +140,80 @@
                 </div>
             </div>
         </div>
+
+        <div class="col s12 m12 l6 card-container  book-card">
+            <div class="card">
+                <div class="card-content">
+                    <div class="left  book-img-2 no-padding">
+                        <img src="img/book-1.png" alt="book">
+                    </div>
+                    <div class="left book-card-description">
+                        <span class="txt-grey-1 txt-size-12 txt-500 txt-grey-4">COMM 200</span><br>
+                        <h3 class="title-3 txt-size-14 txt-grey-1">Biz Communication Now</h3>
+                        <div class="stars-block teal-text">
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star_border</i>
+
+                            <span class="txt-green-2 txt-size-10 _italic txt-500">(14 copies left)</span>
+                        </div>
+                        <div class="col s4 m4 l4 no-padding">
+                            <span class="txt-grey-1 txt-500 txt-size-26">$50</span>
+                        </div>
+                        <div class="col s6 m6 l6 no-padding txt-grey-5 txt-size-10 txt-500 padding-top-5">
+                            <span><strike>$135</strike></span><br>
+                            <span>list price</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-action">
+                    <span class="left  card-hint txt-grey-1">From +4 sellers</span>
+                    <button class="btn-flat waves-effect waves-light btn right _btn-1 txt-green-2">SHOP NOW</button>
+                    <button class="btn-flat waves-effect waves-light btn right _btn-1">ADD TO CART</button>
+                    <div class="_clear"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col s12 m12 l6 card-container  book-card">
+            <div class="card">
+                <div class="card-content">
+                    <div class="left  book-img-2 no-padding">
+                        <img src="img/book-1.png" alt="book">
+                    </div>
+                    <div class="left book-card-description">
+                        <span class="txt-grey-1 txt-size-12 txt-500 txt-grey-4">COMM 212</span><br>
+                        <h3 class="title-3 txt-size-14 txt-grey-1">Bussiness Communication</h3>
+                        <div class="stars-block teal-text">
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star_border</i>
+
+                            <span class="txt-green-2 txt-size-10 _italic txt-500">(4 copies left)</span>
+                        </div>
+                        <div class="col s4 m4 l4 no-padding">
+                            <span class="txt-grey-1 txt-500 txt-size-26">$35</span>
+                        </div>
+                        <div class="col s6 m6 l6 no-padding txt-grey-5 txt-size-10 txt-500 padding-top-5">
+                            <span><strike>$120</strike></span><br>
+                            <span>list price</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-action">
+                    <span class="left  card-hint txt-grey-1">From +4 sellers</span>
+                    <button class="btn-flat waves-effect waves-light btn right _btn-1 txt-green-2">SHOP NOW</button>
+                    <button class="btn-flat waves-effect waves-light btn right _btn-1">ADD TO CART</button>
+                    <div class="_clear"></div>
+                </div>
+            </div>
+        </div>
+
         <div class="col s12 m12 l6 card-container  book-card">
             <div class="card">
                 <div class="card-content">
