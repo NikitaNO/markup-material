@@ -1,6 +1,7 @@
 html,
 body {
 	height: 100%;
+	width:100% !important;
 }
 
 body {
@@ -965,9 +966,9 @@ body {
 			width:100% !important;
 		}
 	}
-	@media(max-width: 1024px) {
+	@media(max-width: 768px) {
 		.steps {
-			padding: 0 40px !important;
+			width: 615px !important;
 		}
 	}
 /* end 17 - Shopping Cart Step 2 */
@@ -983,7 +984,13 @@ body {
 		width: 20px;
 		height: 20px;
 	}
-/* end cancel-transaction-modal */
+	@media(max-width:485px) {
+		#cancel-transaction-modal {
+			width: 100%;
+			height:auto !important;
+		}
+	}
+/* end Notifications sidebar*/
 
 
 
@@ -1206,6 +1213,27 @@ body {
 
 
 
+/* 18 My items */
+.my-items .stars-block i {
+	font-size: 14px !important;
+}
+.my-items .book img {
+	width: 98px;
+	height: 126px;
+}
+/* end My items */
+
+
+
+/* 20 Shopping cart contact seller */
+.contact-seller .user-avatar {
+	width: 76px;
+	height: 76px;
+}
+/* end Shopping cart contact seller */
+
+
+
 
 
 /* It is not general styles */
@@ -1402,6 +1430,7 @@ body {
 
 	.align-super {vertical-align: super;}
 	.align-middle {vertical-align: middle;}
+	.align-top {vertical-align: top;}
 
 	.padding-top-5 {padding-top: 5px !important;}
 	.padding-left-10 {padding-left: 10px !important;}
@@ -1421,7 +1450,7 @@ body {
 	.txt-left {text-align:left;}
 
 	.txt-grey-0 {color: #545e65 !important;}
-	.txt-grey-1 {color: #64637c;}
+	.txt-grey-1 {color: #64637c !important;}
 	.txt-grey-2 {color: #9291a3;}
 	.txt-grey-3 {color: #cccfd1;}
 	.txt-grey-4 {color: #adadb9;}
@@ -1518,6 +1547,10 @@ body {
 
 
 	.backdrop {
+       background-color: #545e65;
+     }
+
+	.dark {
        background-color: #545e65;
      }
 
