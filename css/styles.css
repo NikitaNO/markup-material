@@ -724,7 +724,7 @@ body {
 			font-size: 18px;
 			font-weight: 500;
 			color: #64637c;
-			margin-top: 30px;
+			margin-top: 13px;
 		}
 		.side-nav .circle-img {
 			border-radius: 100%;
@@ -1154,7 +1154,7 @@ body {
 	.menu-btn-side-nav {
 		cursor: pointer;
 		position: absolute;
-		top: 10px;
+		top: 16px;
 		left: 10px;
 	}
 	.minimize-side-nav {
@@ -1197,6 +1197,19 @@ body {
 	}
 
 	.input-message i {color: #bac1c4;}
+
+	.vert {
+		position: absolute !important;
+		right: 26px !important;
+		margin-top: -20px !important;
+	}
+	.reserve-block {
+		margin-left: 46px;
+		margin-top: -10px;
+	}
+	.requesting {
+		margin-top: -8px;
+	}
 
 	.input-message ._attachment,
 	.input-message ._mood {
@@ -1483,6 +1496,8 @@ body {
 	.txt-grey-3 {color: #cccfd1;}
 	.txt-grey-4 {color: #adadb9;}
 	.txt-grey-5 {color: #4a4a4a;}
+	.txt-grey-6 {color: #a2b4bc;}
+	.txt-grey-7 {color: #28264a;}
 	.txt-pink {color:#d94974;}
 
 	.pink {background-color:#d94974;}
