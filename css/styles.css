@@ -352,6 +352,14 @@ body {
 		min-width: 450px;
 		max-width: 450px;
 	}
+	@media (max-width: 479px) {
+		.book-card {
+			min-width: 100%;
+			padding-right: 0 !important;
+		}
+	}
+
+
 	.book-card .card {
 		background-color: #fafafa;
 		box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12);
@@ -375,6 +383,7 @@ body {
 		font-size: 12px;
 		font-weight: 400;
 	}
+
 	.title-hint {
 		display: inline-block;
 		font-size: 15px;
@@ -408,6 +417,19 @@ body {
 		margin-top: -5px;
 		width: 60%;
 	}
+
+	@media (max-width: 400px) {
+		.book-card-description {width: 50%;}
+
+		.book-card .card-content {
+			min-height: auto;
+			overflow: hidden;
+		}
+		.book-img-3 img, .book-img-2 img {
+			top: 0;
+		}
+	}
+
 
 	.book-card-description ._isbn {margin-top: 5px;}
 
