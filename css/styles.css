@@ -1014,6 +1014,17 @@ body {
 	.shopping-cart .questions, .my-items .questions {
 		margin-top: 60px !important;
 	}
+
+	.search-result .caret {
+		right: inherit !important;
+		margin-left: 45px !important;
+		margin-top: 5px;
+	}
+
+	.search-result .btn-flat {
+		line-height: 1 !important;
+		height: 20px !important;
+	}
 /* end 17 - Shopping Cart Step 2 */
 
 
@@ -1449,7 +1460,7 @@ body {
 		display: table;
 	}
 
-	.box-shadow {box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);}
+	.box-shadow {box-shadow: 0 0 25px rgba(0, 0, 0, 0.25) !important;}
 
 	.strike-red {color:#d94974;}
 	.no-padding {padding: 0 !important;}
