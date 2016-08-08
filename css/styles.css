@@ -923,7 +923,7 @@ body {
 	}
 	.my-card-show {
 		height: auto !important;
-		overflow-y:visible !important;
+		overflow-y: visible !important;
 	}
 		.my-card input, .my-card .input-field {
 			margin:0;
@@ -961,8 +961,8 @@ body {
 
 	@media(max-width: 375px) {
 		.shopping-cart .container {
-			max-width:100% !important;
-			width:100% !important;
+			max-width: 100% !important;
+			width: 100% !important;
 		}
 	}
 	@media(max-width: 1024px) {
