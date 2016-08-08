@@ -989,6 +989,9 @@ body {
 			/*width: 615px !important;*/
 		}
 	}
+	.shopping-cart .questions, .my-items .questions {
+		margin-top: 60px !important;
+	}
 /* end 17 - Shopping Cart Step 2 */
 
 
@@ -1423,8 +1426,13 @@ body {
 		margin-right: auto !important;
 		display: table;
 	}
+
+	.box-shadow {box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);}
+
+	.strike-red {color:#d94974;}
 	.no-padding {padding: 0 !important;}
 	.padding-left-0 {padding-left: 0 !important;}
+	.padding-right-0 {padding-right: 0 !important;}
 	.no-margin {margin: 0 !important;}
 
 	.margin-bottom-0 {margin-bottom: 0 !important;}
@@ -1490,6 +1498,14 @@ body {
 	.opacity-08 {opacity: 0.8;}
 
 	.align-super {vertical-align: super;}
+	.align-top {
+		vertical-align: top;
+		line-height: 2;
+	}
+
+	.more-vert {
+		margin-left: 10px;
+	}
 	.align-middle {vertical-align: middle;}
 	.align-top {vertical-align: top;}
 
@@ -1555,6 +1571,13 @@ body {
 	.txt-700 {font-weight: 700;}
 	.txt-800 {font-weight: 800;}
 	.txt-900 {font-weight: 900;}
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none !important;
+	margin: 0 !important;
+}
 /* end General Styles */
 
 
