@@ -102,7 +102,7 @@ body {
 	}
 
 	.main-menu {
-		margin: 10px 0 9px 77px;
+		margin: 10px 0 9px 72px;
 	}
 	.main-menu a {
 		color: #cccfd1;
@@ -112,7 +112,7 @@ body {
 		padding: 9px 8px;
 		font-size: 13px;
 		font-weight: 500;
-		margin: 0 10px;
+		margin: 0 15px;
 	}
 	.main-menu a.active,
 	.main-menu a:hover {
@@ -394,8 +394,8 @@ body {
 		min-height: 140px;
 	}
 
-	.book-card .stars-block i {font-size: 15px !important;}
-	.book-card .stars-block .text {font-size: 13px !important;}
+	.book-card .stars-block i {font-size: 13px !important;}
+	.book-card .stars-block span {font-size: 10px !important; top: -3px; left: 6px; position: relative;}
 
 	.book-card .card-action {
 		padding-top: 10px;
@@ -646,6 +646,9 @@ body {
 	.search-options {
 		margin: 5px 0 20px;
 	}
+	.search-options {
+		margin: 5px 0 20px;
+	}
 
 	.search-options input {
 		border: none !important;
@@ -661,15 +664,15 @@ body {
 		display: inline-block;
 		color: #64637c;
 		font-weight: 500;
-		font-size: 34px;
+		font-size: 29px;
 	}
 	.old-price {
 		display: inline-block;
 		color: #929292;
 		font-weight: 400;
-		font-size: 12px;
+		font-size: 11px;
 		margin-left: 10px;
-		line-height: 16px;
+		line-height: 14px;
 	}
 
 
@@ -1628,5 +1631,15 @@ body {
 		display: inline-block;
 		cursor: pointer;
      }
+
+     .search-options .select-wrapper span.caret {
+     	top: 19px;
+     }
+
+
+
+
+
+     ._load-more-btn {left: 8px;}
 
 /* end Others */
