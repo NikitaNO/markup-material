@@ -664,6 +664,9 @@ body {
 
 		.search-block .search-input { width: 80% !important;}
 	}
+	@media (max-width: 400px) {
+		.search-block .search-input { width: 75% !important;}
+	}
 
 	.search-options {
 		margin: 5px 0 20px;
@@ -1018,7 +1021,7 @@ body {
 	.search-result .caret {
 		right: inherit !important;
 		margin-left: 45px !important;
-		margin-top: 5px;
+		/*margin-top: 5px;*/
 	}
 
 	.search-result .btn-flat {
@@ -1688,8 +1691,13 @@ input[type=number]::-webkit-outer-spin-button {
 		cursor: pointer;
      }
 
+
+
      .search-options .select-wrapper span.caret {
      	top: 19px;
+     }
+     @media (max-width: 600px) {
+     	.search-options .padding-left-20 {padding-left: 10px !important;}
      }
 
 
