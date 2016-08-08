@@ -349,6 +349,7 @@ body {
 		margin-bottom: 60px;
 		padding-left: 0 !important;
 		padding-right: 60px !important;
+		min-width: 450px;
 		max-width: 450px;
 	}
 	.book-card .card {
@@ -807,6 +808,12 @@ body {
 	.help-block .search-options {
 		top: -30px;
 		position: relative;
+	}
+
+	@media (max-width: 992px) {
+		.help-block {
+			float: left !important;
+		}
 	}
 /* end Notifications sidebar*/
 
@@ -1429,6 +1436,8 @@ body {
 	.max-w-240 {max-width: 240px !important;}
 	.max-w-250 {max-width: 250px !important;}
 	.max-w-380 {max-width: 380px !important;}
+
+	.max-w-830 {max-width: 830px !important;}
 
 	.min-h-50 {min-height: 50px !important;}
 
