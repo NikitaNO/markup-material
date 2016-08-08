@@ -1508,7 +1508,7 @@ body {
 	.txt-grey-7 {color: #28264a;}
 	.txt-pink {color:#d94974;}
 
-	.pink {background-color:#d94974;}
+	.pink {background-color:#d94974 !important;}
 
 	.min-w-130 {min-width:130px;}
 
