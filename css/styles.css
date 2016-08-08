@@ -976,7 +976,7 @@ body {
 	}
 	@media(max-width: 768px) {
 		.steps {
-			width: 615px !important;
+			/*width: 615px !important;*/
 		}
 	}
 /* end 17 - Shopping Cart Step 2 */
@@ -1093,6 +1093,16 @@ body {
 	.schedule-block {
 		background-color: #dddfe1;
 		padding: 40px 0 40px;
+	}
+	.close-card {
+		display: block;
+		position: absolute;
+		top: -30px;
+		right: -5px;
+	}
+	.close-card i {
+		color:#cccfd1;
+		font-size: 21px;
 	}
 
 
@@ -1271,17 +1281,30 @@ body {
 
 
 
-	.schedule .autocomplete-content {
+	.schedule-block .autocomplete-content {
 		position: absolute;
 		margin-top: -.9rem;
 		border-radius: 2px;
 		background-color: #fafafa;
 		box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.24), 0 0 8px 0 rgba(0, 0, 0, 0.12);
-		margin-left: 55px;
-		width: 332px !important;
+		margin-left: -12px;
+		width: 100% !important;
+		z-index: 1;
 	}
 
-	.schedule .autocomplete-content li {
+	.schedule-block .autocomplete-content .close-icon {
+		display: block;
+		position: absolute;
+		right: 10px;
+		margin-top: -7.5%;
+	}
+
+	.schedule-block .autocomplete-content .close-icon i {
+		color: #9291a3;
+		font-size:14px;
+	}
+
+	.schedule-block .autocomplete-content li {
 		clear: both;
 		color: rgba(0, 0, 0, 0.87);
 		cursor: pointer;
@@ -1292,34 +1315,34 @@ body {
 		padding: 20px;
 	}
 
-	.schedule .autocomplete-content li > span {
+	.schedule-block .autocomplete-content li > span {
 		display: block;
 		font-size: 12px;
 		font-weight: 400;
-		color: #545e65;
+		color: #9291a3;
 		padding: 0;
 		padding-bottom: 8px;
 
 	}
-	.schedule .autocomplete-content li > p {
+	.schedule-block .autocomplete-content li > p {
 		font-size: 14px;
 		font-weight: 500;
 		color: #545e65;
 		font-style: normal;
 	}
 
-	.schedule .autocomplete-content li > span .highlight {
+	.schedule-block .autocomplete-content li > span .highlight {
 		color: #000000;
 	}
 
-	.schedule .autocomplete-content li img {
+	.schedule-block .autocomplete-content li img {
 		height: 52px;
 		width: 52px;
 		padding: 5px;
 		margin: 0 15px;
 	}
 
-	.schedule .autocomplete-content li:hover {
+	.schedule-block .autocomplete-content li:hover {
 		background-color: #eeeeee;
 		cursor: pointer;
 	}
@@ -1491,6 +1514,9 @@ body {
 	.txt-green {color: #28b361 !important;}
 	.txt-green-2 {color: #179f87;}
 	.txt-green-3 {color: #3ab96e !important;}
+	.txt-green-4 {color: #1cfb8c !important;}
+
+	.margin-top-100 {margin-top: 100px !important;}
 
 	._italic {font-style: italic;}
 	.txt-100 {font-weight: 100;}
