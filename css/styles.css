@@ -873,8 +873,11 @@ body {
 		color: white;
 		display: inline-block;
 		text-align: center;
-		padding-top: 3px;
+		padding-top: 4px;
+		font-weight: 500;
+		overflow: hidden
 	}
+	.step-point .material-icons {font-size: 20px;}
 	.steps .hr {
 		width: 73px;
 		height: 0px;
@@ -1357,6 +1360,8 @@ body {
 
 
 	._relative {position: relative !important;}
+
+	.top_-10 {top: -10px;}
 
 	.padding-top {padding-top: 30px;}
 	.padding-top-2 {padding-top: 10px;}
