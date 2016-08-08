@@ -345,7 +345,12 @@ body {
 
 
 /* 3 Sell Textbooks with books */
-	.book-card {margin-bottom: 15px;}
+	.book-card {
+		margin-bottom: 60px;
+		padding-left: 0 !important;
+		padding-right: 60px !important;
+		max-width: 450px;
+	}
 	.book-card .card {
 		background-color: #fafafa;
 		box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12);
@@ -1383,11 +1388,14 @@ body {
 	.margin-top-5 {margin-top: 5px !important;}
 
 	.margin-left-10 {margin-left: 10px !important;}
+	.margin-left-25 {margin-left: 25px !important;}
 
 	.top-0 {top: 0 !important;}
 
 
 	._clear {clear: both;}
+
+	.w-75 {width: 75px !important}
 
 	.w-190 {width: 190px !important}
 	.w-240 {width: 240px !important;}
