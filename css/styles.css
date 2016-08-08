@@ -971,7 +971,7 @@ body {
 	}
 	@media(max-width: 768px) {
 		.steps {
-			width: 615px !important;
+			/*width: 615px !important;*/
 		}
 	}
 /* end 17 - Shopping Cart Step 2 */
@@ -1483,6 +1483,9 @@ body {
 	.txt-green {color: #28b361 !important;}
 	.txt-green-2 {color: #179f87;}
 	.txt-green-3 {color: #3ab96e !important;}
+	.txt-green-4 {color: #1cfb8c !important;}
+
+	.margin-top-100 {margin-top: 100px !important;}
 
 	._italic {font-style: italic;}
 	.txt-100 {font-weight: 100;}
