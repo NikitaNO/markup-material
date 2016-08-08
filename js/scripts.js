@@ -100,7 +100,7 @@
                      if ($array[i]['path'] !== '' && $array[i]['path'] !== undefined && $array[i]['path'] !== null && $array[i]['class'] !== undefined && $array[i]['class'] !== '') {
                          $html += '<li class="autocomplete-option"><img src="' + $array[i]['path'] + '" class="' + $array[i]['class'] + '"><span>' + $array[i]['value'] + '</span></li>';
                      } else {
-                         $html += '<li class="autocomplete-option"><span>' + $array[i]['value'] + '</span><p>'+ $array[i]['value2'] +'</p></li>';
+                         $html += '<li class="autocomplete-option"><span>' + $array[i]['value'] + '</span><p>'+ $array[i]['value2'] +'</p><span class="close-icon"><i class="material-icons">close</i></span></li>';
                      }
                  }
 
