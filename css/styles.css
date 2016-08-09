@@ -884,12 +884,21 @@ body {
 		top: 65px;
 		cursor: pointer;
 		right: 78px;
-		color: #000000;
+		color: #000;
 		border-radius: 100%;
+		cursor: pointer;
 	}
 		.close-btn i {
 			font-size: 30px;
 		}
+
+	@media (max-width: 768px) {
+		.close-btn {
+			right: 17px;
+			top: 17px;
+		}
+	}
+
 	.steps {
 		/*padding: 0 174px !important;*/
 		display: table  !important;
@@ -901,7 +910,8 @@ body {
 		div._step {
 			width: 100% !important;
 			display: block !important;
-			margin-bottom: 30px;
+			margin-top: 15px;
+			margin-bottom: 15px;
 		}
 		div._step .hr {display: none;}
 	}
@@ -1768,8 +1778,21 @@ input[type=number]::-webkit-outer-spin-button {
 
 
 
-
-
      ._load-more-btn {left: 8px;}
+
+
+
+	@media (max-width: 900px) {
+		.padding-top._after-steps {padding: 0;}
+	}
+
+
+	@media (max-width: 500px) {
+		.saved-payment-method,
+		.my-wallet {
+			height: auto;
+			padding-bottom: 13px !important;
+		}
+	}
 
 /* end Others */
