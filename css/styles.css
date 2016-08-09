@@ -419,7 +419,7 @@ body {
 	}
 
 	@media (max-width: 400px) {
-		.book-card-description {width: 50%;}
+		.book-card-description {width: 50%; margin-left: 20px;}
 
 		.book-card .card-content {
 			min-height: auto;
@@ -427,6 +427,7 @@ body {
 		}
 		.book-img-3 img, .book-img-2 img {
 			top: 0;
+			width: 80px;
 		}
 	}
 
@@ -1053,7 +1054,6 @@ body {
 
 
 /* 10 My Textbooks With Books */
-
 	.user-miniature img {
 		width: 45px;
 		height: auto;
@@ -1211,20 +1211,82 @@ body {
 		top: 16px;
 		left: 10px;
 	}
+
+	@media (max-width: 400px) {
+		.my-backpack,
+		.my-messages {
+			width: 100%;
+		}
+		.my-backpack.active,
+		.my-messages.active {
+			right: -100% !important; /* for old browsers */
+			right: calc(-100% - 16px) !important;
+		}
+	}
+
 	.minimize-side-nav {
 		left: auto;
 		right: 45px;
 		top: 16px;
 	}
 
-	._message {width: 70%;}
+	.message-block ._message {width: 75%;}
 
-	._message ._text {
+	.message-block ._message ._text {
 		border: 1px solid #dfe2e6;
 		background-color: #fff;
 		border-radius: 10px;
-		padding: 20px;
+		padding: 15px 20px;
 	}
+
+	.message-block {clear: both; margin-bottom: 20px;}
+	.message-block .user-miniature img {margin-right: 0; margin-top: 10px;}
+	.message-block ._message {margin-left: 10px;}
+	.message-block._inside ._message {margin-right: 10px; margin-left: 0;}
+
+	.message-block ._message,
+	.message-block .user-miniature {float: left;}
+	.message-block._inside ._message,
+	.message-block._inside .user-miniature {float: right;}
+
+	/* message triangle */
+		.message-block ._message {position: relative;}
+		.message-block ._message::before,
+		.message-block ._message::after {
+			content: ".";
+			font-size: 0;
+			display: block;
+			position: absolute;
+			z-index: 1;
+			top: 21px;
+			left: -4px;
+
+			width: 0;
+			height: 0;
+			border-style: solid;
+			border-width: 4px 5px 4px 0;
+			border-color: transparent #fff transparent transparent;
+		}
+		.message-block ._message::after {
+			z-index: 0;
+			border-width: 5px 7px 5px 0;
+			border-color: transparent #dfe2e6 transparent transparent;
+			top: 20px;
+			left: -6px;
+		}
+		.message-block._inside ._message::before,
+		.message-block._inside ._message::after {
+			left: auto;
+			right: -4px;
+			border-width: 4px 0 4px 5px;
+			border-color: transparent transparent transparent #fff;
+		}
+		.message-block._inside ._message::after {
+			right: -6px;
+			border-width: 5px 0 5px 7px;
+			border-color: transparent transparent transparent #dfe2e6;
+		}
+	/* end message triangle */
 
 	
 	.input-message-wrapper {
@@ -1268,13 +1330,17 @@ body {
 	.input-message ._attachment,
 	.input-message ._mood {
 		position: absolute;
-		top: 26px;
-		right: 21px;
+		top: 29px;
+		right: 33px;
 		cursor: pointer;
 	}
 
-	.input-message ._attachment { right: 50px;  }
-		
+	.input-message ._attachment {
+		right: 62px;
+		transform: rotate(-45deg);
+	}
+	.input-message .material-icons {font-size: 22px;}
+	
 /* end 16 */
 
 
