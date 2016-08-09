@@ -243,6 +243,13 @@ body {
 		background-color: rgba(0,0,0, .15);
 		z-index: 199;
 	}
+
+	@media(min-width:1024px) {
+		.quick-search-panel {
+			width: 90%;
+			margin: auto;
+		}
+	}
 /* end Header */
 
 
@@ -349,8 +356,8 @@ body {
 		margin-bottom: 60px;
 		padding-left: 0 !important;
 		padding-right: 60px !important;
-		min-width: 450px;
-		max-width: 450px;
+		/*min-width: 450px;*/
+		/*max-width: 450px;*/
 	}
 	@media (max-width: 479px) {
 		.book-card {
@@ -1133,6 +1140,10 @@ body {
 		border-top: 2px solid #4bba79;
 	}
 
+	.textbook-with-books .user-miniature img {
+		width: 33px;
+	}
+
 /* end My Textbooks With Books */
 
 
@@ -1590,6 +1601,11 @@ body {
 	.max-w-240 {max-width: 240px !important;}
 	.max-w-250 {max-width: 250px !important;}
 	.max-w-380 {max-width: 380px !important;}
+
+	.inline-block-left {
+		display: inline-block !important;
+		float: left !important;
+	}
 
 	.max-w-830 {max-width: 830px !important;}
 
