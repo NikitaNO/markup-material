@@ -366,11 +366,12 @@ body {
 	}
 
 
-	.book-img-1 {
+	.book-img-1 img {
 		display: block;
 		width: 140px;
 		height: auto;
 		margin-bottom: 20px;
+		border-radius: 3px;
 	}
 
 	.book-description-1 {
@@ -1811,5 +1812,50 @@ input[type=number]::-webkit-outer-spin-button {
 			padding-bottom: 13px !important;
 		}
 	}
+
+
+	@media (max-width: 600px) {
+		.textbook-details .book-card-description {width: 50%;}
+		.textbook-details .book-img-1 img {width: 120px;}
+	}
+
+
+	/* 23 table */
+		@media (max-width: 767px) {
+			._table-head div {font-size: 11px !important; font-weight: 500 !important;}
+			._table-body {zoom: .8;}
+
+			._table-body .btn-circled,
+			._table-body .btn-flat {
+				height: auto;
+				width: 80%;
+				padding: 10px !important;
+				border-radius: 25px !important;
+				line-height: 1.2em;
+			}
+		}
+		@media (max-width: 550px) {
+			._table-body .btn-circled,
+			._table-body .btn-flat {
+				border-radius: 5px !important;
+			}
+		}
+
+		@media (min-width: 768px) {
+			._table-body .btn-flat {margin-left: 15px !important;}
+			._table-body .row {
+				border-bottom: 2px solid #e0e0e0;
+				padding: 10px 35px 30px;
+				position: relative;
+				left: -35px;
+			}
+
+			._table-head {
+				padding: 0 35px;
+				position: relative;
+				left: -35px;	
+			}
+		}
+	/* end 23 table */
 
 /* end Others */
