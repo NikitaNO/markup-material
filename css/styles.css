@@ -365,6 +365,22 @@ body {
 		box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12);
 	}
 
+
+	.book-img-1 {
+		display: block;
+		width: 140px;
+		height: auto;
+		margin-bottom: 20px;
+	}
+
+	.book-description-1 {
+		margin-left: 30px;
+	}
+
+	.book-params-1 {
+		margin-top: 5px;
+	}
+
 	.book-img-3 img,
 	.book-img-2 img {
 		width: 100px;
@@ -459,21 +475,6 @@ body {
 
 
 /* 4 Sell Textbooks Listing Details */
-	.book-img-1 {
-		display: block;
-		width: 140px;
-		height: auto;
-		margin-bottom: 20px;
-	}
-
-	.book-description-1 {
-		margin-left: 30px;
-	}
-
-	.book-params-1 {
-		margin-top: 5px;
-	}
-
 	.input-1 {
 		border: 1px solid #545e65 !important;
 		border-radius: 3px !important;
@@ -1365,6 +1366,21 @@ body {
 			height: 76px;
 			border-radius: 100%;
 		}
+
+	
+	@media (max-width: 550px) {
+		#contact-seller-cancel {
+			width: 90%;
+			height: auto;
+			padding-bottom: 30px !important;
+		}
+	}
+	@media (max-width: 400px) {
+		#contact-seller-cancel ._yes button,
+		#contact-seller-cancel ._no button {
+			min-width: 60px;
+		}
+	}
 /* end Contact Seller Cancel modal */
 
 
@@ -1527,6 +1543,7 @@ body {
 
 	._relative {position: relative !important;}
 
+	.top_-3 {top: -3px !important;}
 	.top_-10 {top: -10px;}
 
 	.padding-top {padding-top: 30px;}
@@ -1541,7 +1558,7 @@ body {
 
 	.box-shadow {box-shadow: 0 0 25px rgba(0, 0, 0, 0.25) !important;}
 
-	.strike-red {color:#d94974;}
+	.strike-red {color: #d94974;}
 	.no-padding {padding: 0 !important;}
 	.padding-left-0 {padding-left: 0 !important;}
 	.padding-right-0 {padding-right: 0 !important;}
