@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1140px" height="1457px" viewBox="0 0 1140 1457" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Wallet</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="25" cy="25" r="25"></circle>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Wallet">
+            <g id="faq" transform="translate(71.000000, 953.000000)">
+                <rect id="Rectangle-191" fill-opacity="0.109714674" fill="#545E65" x="0" y="0" width="960" height="464" rx="6"></rect>
+                <text id="Questions" font-family=".SFNSDisplay-Regular, .SF NS Display" font-size="20" font-weight="normal" fill="#28B361">
+                    <tspan x="51" y="55">Questions</tspan>
+                </text>
+                <g id="Group-5" transform="translate(50.000000, 94.000000)" font-family=".SFNSText-Regular, .SF NS Text" fill="#4A4A4A" font-weight="normal">
+                    <text id="What-is-my-Wallet-ba" font-size="16" letter-spacing="0.571428657">
+                        <tspan x="0" y="15">What is my Wallet balance?</tspan>
+                    </text>
+                    <text id="This-is-your-current" font-size="14" letter-spacing="0.500000119">
+                        <tspan x="0" y="45">This is your current available balance. If you just </tspan>
+                        <tspan x="0" y="62">sold a book for $50, then you will find that amount </tspan>
+                        <tspan x="0" y="79">available in your stud-E-wallet. You can use this </tspan>
+                        <tspan x="0" y="96">balance to quickly complete future purchases on </tspan>
+                        <tspan x="0" y="113">the platform, or withdrawal it at any point. </tspan>
+                    </text>
+                </g>
+                <g id="Group-5-Copy" transform="translate(50.000000, 254.000000)" fill="#4A4A4A" font-weight="normal">
+                    <text id="How-does-StudEtree-p" font-family=".SFNSText-Regular, .SF NS Text" font-size="16" letter-spacing="0.571428657">
+                        <tspan x="0" y="15">How does StudEtree protect my information?</tspan>
+                    </text>
+                    <text id="We-take-the-protecti" font-family=".AppleSystemUIFont" font-size="14" letter-spacing="0.500000119">
+                        <tspan x="0" y="67">We take the protection of your personal </tspan>
+                        <tspan x="0" y="84">information very seriously, and keep it safely </tspan>
+                        <tspan x="0" y="101">stored in our encrypted databases. Along with </tspan>
+                        <tspan x="0" y="118">your personal information, we collaborate closely </tspan>
+                        <tspan x="0" y="135">with our financial partners to ensure the highest </tspan>
+                        <tspan x="0" y="152">level of cyber security and protection of your </tspan>
+                        <tspan x="0" y="169">banking information and financial data.</tspan>
+                    </text>
+                </g>
+                <g id="Group-5-Copy-3" transform="translate(490.000000, 94.000000)" fill="#4A4A4A" font-weight="normal">
+                    <text id="Why-should-I-link-my" font-family=".SFNSText-Regular, .SF NS Text" font-size="16" letter-spacing="0.571428657">
+                        <tspan x="0" y="15">Why should I link my bank account?</tspan>
+                    </text>
+                    <text id="Once-you-link-your-b" font-family=".AppleSystemUIFont" font-size="14" letter-spacing="0.500000119">
+                        <tspan x="0" y="45">Once you link your bank account, you will be able </tspan>
+                        <tspan x="0" y="62">to transfer funds directly to and from your personal </tspan>
+                        <tspan x="0" y="79">account, providing flexible alternatives to PayPal </tspan>
+                        <tspan x="0" y="96">and credit. </tspan>
+                    </text>
+                </g>
+                <g id="Group-5-Copy-2" transform="translate(491.000000, 254.000000)" fill="#4A4A4A" font-weight="normal">
+                    <text id="Why-does-it-take-3-5" font-family=".SFNSText-Regular, .SF NS Text" font-size="16" letter-spacing="0.571428657">
+                        <tspan x="0" y="15">Why does it take 3-5 days to transfer funds </tspan>
+                        <tspan x="0" y="33">to and from my bank account?</tspan>
+                    </text>
+                    <text id="The-delay-you-might" font-family=".AppleSystemUIFont" font-size="14" letter-spacing="0.500000119">
+                        <tspan x="0" y="64">The delay you might encounter to receive funds is </tspan>
+                        <tspan x="0" y="81">caused by the processing and transfer times of your </tspan>
+                        <tspan x="0" y="98">bank. This, unfortunately, is out of our control.</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="intercom" transform="translate(1020.000000, 1334.000000)">
+                <g id="Call">
+                    <g id="Oval-13">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#28B361" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="ic_chat" transform="translate(12.000000, 13.000000)" fill="#FFFFFF">
+                        <path d="M21.2539167,22.4890909 C15.7960833,23.8276364 11.817,20.4589091 11.817,16.8523636 C11.817,13.3887273 15.1861667,10.8883636 18.9085,10.8883636 C22.6535833,10.8883636 26,13.4072727 26,16.8523636 C26,18.0741818 25.5634167,19.2741818 24.7899167,20.2047273 C24.7585,21.2956364 25.3944167,22.8610909 25.9685833,24 C24.4313333,23.7196364 22.2440833,23.1010909 21.2539167,22.4890909 L21.2539167,22.4890909 Z M9.65033333,16.8523636 C9.65033333,12.3610909 13.8038333,8.70654545 18.9085,8.70654545 C19.8683333,8.70654545 20.7935,8.83636364 21.6645,9.07527273 C21.64175,3.80181818 16.50675,0 10.8333333,0 C5.11225,0 0,3.84763636 0,9.11127273 C0,10.9767273 0.66625,12.8105455 1.84708333,14.2330909 C1.898,15.8989091 0.925166667,18.2890909 0.0476666667,20.0290909 C2.39633333,19.6025455 5.73733333,18.6567273 7.25075,17.7218182 C8.12066667,17.9356364 8.95808333,18.0534545 9.77275,18.1178182 C9.70016667,17.7043636 9.65033333,17.2832727 9.65033333,16.8523636 L9.65033333,16.8523636 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-2" transform="translate(91.000000, 210.000000)">
+                <path d="M0,215 L340.503296,215" id="Line-Copy-6" stroke="#979797" stroke-linecap="square" opacity="0.3"></path>
+                <text id="$10.00" font-family=".SFNSDisplay-Regular, .SF NS Display" font-size="30" font-weight="normal" fill="#64637C">
+                    <tspan x="10" y="116">$10.00</tspan>
+                </text>
+                <text id="Benefits-of-paying-w" opacity="0.8" font-family="OpenSans-Italic, Open Sans" font-size="10" font-style="italic" font-weight="normal" fill="#545E65">
+                    <tspan x="10" y="53">Benefits of paying with the StdeTree wallet lorem ipsum dolor </tspan>
+                    <tspan x="10" y="67">si amet lorm ipsum dolor.</tspan>
+                </text>
+                <text id="Wallet-balance" font-family=".SFNSDisplay-Regular, .SF NS Display" font-size="20" font-weight="normal" fill="#28B361">
+                    <tspan x="5" y="19">Wallet balance</tspan>
+                </text>
+                <text id="ADD-MONEY-WITHDRAW-M" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" line-spacing="22" fill="#2980B9">
+                    <tspan x="10" y="155">ADD MONEY</tspan>
+                    <tspan x="10" y="177">WITHDRAW MONEY</tspan>
+                </text>
+            </g>
+            <g id="Group-3" transform="translate(586.000000, 210.000000)">
+                <g id="Group-15" transform="translate(23.000000, 0.000000)" font-size="20" font-family=".SFNSDisplay-Regular, .SF NS Display" fill="#28B361" font-weight="normal">
+                    <text id="Bank-account(s)">
+                        <tspan x="0" y="19">Bank account(s)</tspan>
+                    </text>
+                </g>
+                <g id="Wallet-Copy" transform="translate(1.000000, 302.000000)">
+                    <rect id="Rectangle-207" fill="#72D098" opacity="0.1" x="0" y="0" width="345" height="79" rx="2"></rect>
+                    <text id="Visa---Exp.-11/17" opacity="0.5" font-family=".SFNSText-Regular, .SF NS Text" font-size="12" font-weight="normal" fill="#545E65">
+                        <tspan x="223.726562" y="54">Visa  - Exp. 11/17</tspan>
+                    </text>
+                    <text id="****-****-****-1234" font-family=".SFNSText-Regular, .SF NS Text" font-size="14" font-weight="normal" fill="#545E65">
+                        <tspan x="191.771484" y="35">**** **** **** 1234</tspan>
+                    </text>
+                    <g id="Visa-dark" transform="translate(29.000000, 24.000000)">
+                        <rect id="Rectangle" fill="#26337A" x="0" y="0" width="51" height="31" rx="1.98"></rect>
+                        <polyline id="Fill-3" fill="#FFFFFF" points="21.1598953 20.432493 22.7280113 10.5775493 25.2345885 10.5775493 23.6666158 20.432493 21.1598953 20.432493"></polyline>
+                        <path d="M32.7587642,10.8194366 C32.2631547,10.6216479 31.4836843,10.4059577 30.5126795,10.4059577 C28.0344885,10.4059577 26.2900347,11.7433239 26.2755549,13.658338 C26.2597848,15.0748779 27.520385,15.8648685 28.4707453,16.3356901 C29.4474846,16.8183005 29.7756449,17.1271362 29.7717741,17.558662 C29.765036,18.2186854 28.9921604,18.5211174 28.2714693,18.5211174 C27.2679209,18.5211174 26.73475,18.37223 25.9104066,18.0043052 L25.5879809,17.8474131 L25.2374558,20.0533615 C25.821951,20.3278498 26.9054965,20.5660986 28.0300442,20.578615 C30.6637853,20.578615 32.375122,19.2574038 32.3951929,17.2124225 C32.4042249,16.0891455 31.7362918,15.2377371 30.2897484,14.5347793 C29.4137941,14.077784 28.8761788,13.775061 28.8823435,13.3125352 C28.882917,12.9029859 29.3365208,12.4644742 30.3182779,12.4644742 C31.1381769,12.4510845 31.7317041,12.6429061 32.1941965,12.843169 L32.4192781,12.9558169 L32.7587642,10.8194366" id="Fill-4" fill="#FFFFFF"></path>
+                        <path d="M36.0964228,16.9385164 C36.3041573,16.3720751 37.0949534,14.1838826 37.0949534,14.1838826 C37.0803303,14.2099343 37.301541,13.6130751 37.4281315,13.2436948 L37.5973011,14.0936479 C37.5973011,14.0936479 38.0782875,16.4458638 38.177352,16.9385164 L36.0964228,16.9385164 L36.0964228,16.9385164 Z M39.1887854,10.5875915 L37.2516503,10.5875915 C36.6508116,10.5875915 36.2010785,10.7619484 35.9378621,11.404507 L32.2154144,20.4359859 L34.8481519,20.4359859 C34.8481519,20.4359859 35.2776706,19.2210188 35.3751582,18.9543897 C35.6623164,18.9543897 38.2205046,18.9594836 38.5856529,18.9594836 C38.6607756,19.3033944 38.8908749,20.4359859 38.8908749,20.4359859 L41.2173868,20.4359859 L39.1887854,10.5875915 L39.1887854,10.5875915 Z" id="Fill-5" fill="#FFFFFF"></path>
+                        <path d="M19.0570313,10.5858451 L16.6036423,17.3045493 L16.3408559,15.9388028 C15.883668,14.3652254 14.460493,12.6596432 12.8685785,11.8050329 L15.1130862,20.4239061 L17.7658947,20.4223052 L21.7132806,10.5858451 L19.0570313,10.5858451" id="Fill-6" fill="#FFFFFF"></path>
+                        <path d="M14.3261609,10.5791502 L10.2840113,10.5791502 L10.2507509,10.7833427 C13.3960149,11.5996761 15.4770875,13.5701408 16.3408559,15.9388028 L15.4624644,11.4106197 C15.3109286,10.786108 14.8705142,10.6009812 14.3261609,10.5791502" id="Fill-7" fill="#ED982D"></path>
+                    </g>
+                </g>
+                <g id="Wallet-Copy-3" transform="translate(0.000000, 144.000000)" fill="#545E65">
+                    <rect id="Rectangle-207" opacity="0.0700000003" x="0" y="0" width="345" height="79" rx="2"></rect>
+                    <text id="+-Link-a-bank-accoun" font-family=".SFNSText-Regular, .SF NS Text" font-size="14" font-weight="normal">
+                        <tspan x="25.59375" y="43">+   Link a bank account</tspan>
+                    </text>
+                </g>
+                <g id="Wallet-Copy-4" transform="translate(0.000000, 396.000000)" fill="#545E65">
+                    <rect id="Rectangle-207" opacity="0.0700000003" x="0" y="0" width="345" height="79" rx="2"></rect>
+                    <text id="+-Link-a-card" font-family=".SFNSText-Regular, .SF NS Text" font-size="14" font-weight="normal">
+                        <tspan x="26.2402344" y="43">+   Link a  card</tspan>
+                    </text>
+                </g>
+                <g id="Wallet-Copy-2" transform="translate(0.000000, 50.000000)">
+                    <rect id="Rectangle-207" fill="#72D098" opacity="0.1" x="0" y="0" width="345" height="79" rx="2"></rect>
+                    <text id="TD-Bank-(Canada)" opacity="0.699999988" font-family=".SFNSText-Regular, .SF NS Text" font-size="12" font-weight="normal" fill="#545E65">
+                        <tspan x="216.525391" y="54">TD Bank (Canada) </tspan>
+                    </text>
+                    <text id="CHECKING" font-family=".SFNSText-Regular, .SF NS Text" font-size="12" font-weight="normal" fill="#545E65">
+                        <tspan x="54.7851562" y="44">CHECKING</tspan>
+                    </text>
+                    <text id="****-****-****-1234" font-family=".SFNSText-Regular, .SF NS Text" font-size="14" font-weight="normal" fill="#545E65">
+                        <tspan x="191.771484" y="35">**** **** **** 1234</tspan>
+                    </text>
+                </g>
+                <text id="Credit-card(s)" font-family=".SFNSDisplay-Regular, .SF NS Display" font-size="20" font-weight="normal" fill="#28B361">
+                    <tspan x="23" y="274">Credit card(s)</tspan>
+                </text>
+                <g id="Wallet-Copy" transform="translate(0.000000, 554.000000)" fill="#72D098" opacity="0.1">
+                    <rect id="Rectangle-207" x="0" y="0" width="345" height="79" rx="2"></rect>
+                </g>
+                <text id="PayPal-account" font-family=".SFNSDisplay-Regular, .SF NS Display" font-size="20" font-weight="normal" fill="#28B361">
+                    <tspan x="20" y="526">PayPal account</tspan>
+                </text>
+                <g id="noun_591830_cc" opacity="0.5" transform="translate(23.000000, 80.000000)" fill="#000000">
+                    <g id="Group">
+                        <g>
+                            <g>
+                                <polygon id="Shape" points="20 7 0 7 0 6 10 0 20 6"></polygon>
+                                <rect id="Rectangle-path" x="0" y="19" width="20" height="1"></rect>
+                                <rect id="Rectangle-path" x="1" y="8" width="18" height="1"></rect>
+                                <polygon id="Shape" points="17 17 17 10 15 10 15 17 14 17 14 10 12 10 12 17 11 17 11 10 9 10 9 17 8 17 8 10 6 10 6 17 5 17 5 10 3 10 3 17 1 17 1 18 19 18 19 17"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="top-nav-search-iconss">
+                <rect id="Rectangle-36" fill="#545E65" fill-rule="evenodd" x="0" y="0" width="1140" height="150"></rect>
+                <text id="Wallet" opacity="0.7" font-family=".AppleSystemUIFont" font-size="15" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="840.518066" y="51">Wallet</tspan>
+                </text>
+                <text id="$10.00" font-family=".AppleSystemUIFont" font-size="15" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="906.050537" y="51">$10.0</tspan>
+                    <tspan x="920.893066" y="69">0</tspan>
+                </text>
+                <path d="M971.5,34.4875463 L971.5,58.520813" id="Line" stroke="#FFFFFF" stroke-width="1" stroke-linecap="square" opacity="0.4"></path>
+                <g id="top-nav-icons-logo-search" stroke-width="1" fill-rule="evenodd" transform="translate(26.000000, 34.000000)">
+                    <g id="search" opacity="0.6" transform="translate(83.000000, 4.000000)">
+                        <polygon id="Shape" transform="translate(11.500000, 11.500000) scale(1, -1) translate(-11.500000, -11.500000) " points="23 0 0 0 0 23 23 23"></polygon>
+                        <path d="M14.8560833,9.09554167 L14.0951667,9.09554167 L13.8306667,9.358125 C14.7650417,10.44775 15.3333333,11.8603333 15.3333333,13.4080417 C15.3333333,16.8484583 12.5445833,19.6372083 9.10416667,19.6372083 C5.66375,19.6372083 2.875,16.8484583 2.875,13.4080417 C2.875,9.967625 5.66375,7.178875 9.10416667,7.178875 C10.651875,7.178875 12.0635,7.74620833 13.153125,8.679625 L13.417625,8.41704167 L13.417625,7.65804167 L18.207375,2.875 L19.63625,4.303875 L14.8560833,9.09554167 L14.8560833,9.09554167 Z M9.10416667,9.09554167 C6.72175,9.09554167 4.79166667,11.025625 4.79166667,13.4080417 C4.79166667,15.7895 6.72175,17.7205417 9.10416667,17.7205417 C11.485625,17.7205417 13.4166667,15.7895 13.4166667,13.4080417 C13.4166667,11.025625 11.485625,9.09554167 9.10416667,9.09554167 L9.10416667,9.09554167 Z" id="Shape" fill="#FFFFFF" transform="translate(11.255625, 11.256104) scale(1, -1) translate(-11.255625, -11.256104) "></path>
+                    </g>
+                    <image id="Logo-Solo" opacity="0.7" x="0" y="3" width="43" height="23" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAAAxCAYAAABam76bAAAABGdBTUEAA1teXP8meAAABZBJREFUeAHtml9sFEUcx2dmZ3dv72hL20CqlSqVtPyRPyoREoUIIoL8szENAlUDIokxDSZG44svvkh80QffjBZEQKXSqI0CFUOpilBBBJE0lMS00pSW/uGu7e3fGecW6F17t3+AuEVu9qW7v+93fr+ZT66zu7MDwU0cd6+d/xDGodK2XYdrZzy3aL0Wwg/fRBrfTXJMkJdPrVKvBm2i8LuXJygdG1QfAuYJxqiO1bTwDRSGJese3xCWQ29IWJylmsaPrG0tVfDysBCquoE8N2xN9PKyj1ZhABb5sAVjYX2WWKXIpqeOn8PHl/oCLVfMLivNL9opIumRYHp551RJMCsnc7d5gp5VtXC1Kci7MZIid87wgx0JsnAFcivJpooqXYzsw2KIQ3YD5aFRAPIdf9H3r128XFKkGhFhwSMPl30QyAi6fFX5ZBRRdokIZdR95OWWFAIEIC3T1AFJwaQdDHJ+ipef3gIBArWf00BPqXryJUVUFtxCXt40hUDc0KMxPPjm6KlBQRi+k+JzPKWAGglRRaBDtNRzjsYsFQiFOoX0ZHtP97ta/anzMJXDfc8vfy1Xxu+nxjKdx039wPm/z1SBwx1+3iMypci6WOovGoUwrfYiMGSQo607DqxhPs3Ly/UkgWHQJevmPSEJYmlSSj8ziGG293S+yBQOOR2Pa2T4ZijIeRtcnUw0KNmdmG+8fFxPJ3AdNBIBWJkuj4wMqPFPRkb4lV8CNujcygVzQ1gudGtkGmZ/556mJjcP15wJ2KALw4Lnc7OFjV9YGuKciituBGzQgih6Ln9aBj3llohr7gRs0NhED7jb2CcCQlq8PFx3JpAAjQBEU5wtV5UhS/vHy8N1ZwIQLJ5dPKu0xBMie6PcS0zLfhM8W/PDq+DjZWWT8gq2Oqe+vRRqkC5DjX51aeN3Z8aiZ3jCOHGin8KQSpVCcmW6ulDJKY7I8it+2t4WHhmAQSn0dlHdxq2dFTUfBt0npISVgqCLjlW9iATZ+wL9gP03lgfdBwRzcSjoomNZL4KhUDwxZ0XQfUBg0Eh8Fc+qA2pSXtADRmYY2OvKQRfOtnpIGARqtg2aUinwMSPTMnuzDXTUuBz4mg3q6L3YmU2gh3SyPbb+25+CHjMGDe2X6KbpGkQSe9J0PjRLvyBC0H/NQePEiulsE59zi9tL0QntJrr6ZUdl7fax6Jn9zXDq5pV/SgDOcOvAoBbdcmFn40duHq45E7AXlXSgnna2XFOgWObp4QZHAjZoqpOjjo5rAhTAf7oH2qv+/123QQ/2DhzxGogI8TzmcZ3HvXJks26D7qo//ocOjYtuIEQkhu/dsmiJm4drzgRs0AkZxa06Z9tVJUcXN3t5uJ6ZwDDomKF/mtmSjGqUrpmweu6DyQg/80tgGHT7F43NhOiuz8WKGILjCwpqWHLFbwHuu0oguZTPrsNT74rJkvKsGxy2Mb1o3MzJ8/vM7nrQrcXdvFxLEhixyZGF0YyXl50SqDgzacl8plnq9y01DU+XvbBqG0L6qsyu7I1SSHSZwBMtfRe3ad+cbcWjUJDYQN/r4yMTD46Kp11SKtiPelhQi7EQmp5m4AEABDCnJP+eyuiW3MeG5+jrXNr2HGtgX7w9b4zX/fyvOwFFlHJzzMh7aaATzVqbfqvWTZ1vZnRn6FtFVH40I2jQ2hvt6ut/xiCkz3c2bnQkgACRM4NmTXq/PvZXT2xghQXVK44ZuOCbgCPoRIauvY1Hu9ujCzVTa/edkRvTCAjA6ncFnWjRtf/Y6ZbmX+ewG2RtWgYe8EVAx7TOE7Sd6Wy0t7XmYGX/QP8Sw4w3+srOTTaBuGk0n29ofmv0c7QrnrbPmw4xw6HCivnTFGX8tIRZ1Yz9QKL2njzXxlkmYqJoKrlysu2zI/vY0M1/AcSwq7qImPK6AAAAAElFTkSuQmCC"></image>
+                    <path d="M64.5,2.48754632 L64.5,26.520813" id="Line" stroke="#FFFFFF" stroke-linecap="square" opacity="0.4"></path>
+                    <text id="Search-by-Title,-Aut" opacity="0.7" font-family=".AppleSystemUIFont" font-size="14" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="112" y="19">Search by Title, Author, ISBN</tspan>
+                    </text>
+                    <g id="right-icons-menu" transform="translate(974.000000, 0.000000)">
+                        <g id="icons-menu" opacity="0.8">
+                            <g id="notif" transform="translate(31.622807, 0.000000)">
+                                <path d="M16.7149123,4.42307692 C17.9623976,4.42307692 18.9736842,3.43293743 18.9736842,2.21153846 C18.9736842,0.990139496 17.9623976,0 16.7149123,0 C15.467427,0 14.4561404,0.990139496 14.4561404,2.21153846 C14.4561404,3.43293743 15.467427,4.42307692 16.7149123,4.42307692 Z" id="Oval-3" fill="#1CFC8C"></path>
+                                <g id="noun_176439_cc" transform="translate(0.000000, 4.423077)" fill="#FFFFFF">
+                                    <g id="Group">
+                                        <path d="M13.8972633,11.1928638 L13.8972633,5.61829907 C13.8972633,1.9019226 9.68700504,0.431707726 9.68700504,0.431707726 L7.39241428,0.431707726 C7.39241428,0.431707726 3.18215599,1.92234225 3.18215599,5.61829907 L3.18215599,11.1928638 C2.86638662,11.4991586 0.508641975,12.4793018 0.508641975,13.4186057 L0.508641975,14.1537132 L16.5707773,14.1537132 L16.5707773,13.4186057 C16.5918286,12.4793018 14.2130327,11.4991586 13.8972633,11.1928638 L13.8972633,11.1928638 Z" id="Shape"></path>
+                                        <path d="M11.2237493,14.9092403 C11.2237493,16.3386158 10.0238257,17.5025359 8.55023531,17.5025359 C7.07664491,17.5025359 5.87672129,16.3386158 5.87672129,14.9092403 L11.2237493,14.9092403 L11.2237493,14.9092403 Z" id="Shape"></path>
+                                    </g>
+                                </g>
+                            </g>
+                            <g id="arrow-drop-down" opacity="0.7" transform="translate(84.929825, 3.538462)">
+                                <polygon id="Shape" fill="#FFFFFF" points="5.27046784 7.37179487 9.03508772 11.0576923 12.7997076 7.37179487"></polygon>
+                                <rect id="bounds" x="0" y="0" width="18.0701754" height="17.6923077"></rect>
+                            </g>
+                            <g id="backpack" transform="translate(0.000000, 1.769231)">
+                                <g id="Group">
+                                    <g id="Shape">
+                                        <g stroke="#FFFFFF">
+                                            <path d="M4.51754386,4.46438846 L4.51754386,4.46438846 C4.51754386,2.00943976 5.85299245,0 7.48533282,0 L8.69942831,0 C10.3317687,0 11.6672173,2.00859439 11.6672173,4.46438846 L11.6672173,4.46438846" stroke-width="1.53000004"></path>
+                                            <path d="M14.9339575,20.0365385 L14.9339575,8.09343462 C14.9339575,5.80475769 13.0505587,3.93158462 10.7480709,3.93158462 L5.51571255,3.93158462 C3.2132247,3.93158462 1.32982591,5.80413846 1.32982591,8.09343462 L1.32982591,20.0365385 L14.9339575,20.0365385 L14.9339575,20.0365385 Z" stroke-width="0.63" fill="#FFFFFF"></path>
+                                            <path d="M2.81477733,19.6312962 L1.30292915,19.6312962 C0.61487247,19.6312962 0.051917004,19.0739885 0.051917004,18.3928346 L0.051917004,14.8601231 C0.051917004,14.1789692 0.61487247,13.6216615 1.30292915,13.6216615 L2.81477733,13.6216615" stroke-width="1.53000004" fill="#FFFFFF"></path>
+                                            <path d="M13.4483806,19.6312962 L14.9602287,19.6312962 C15.6482854,19.6312962 16.2112409,19.0739885 16.2112409,18.3928346 L16.2112409,14.8601231 C16.2112409,14.1789692 15.6482854,13.6216615 14.9602287,13.6216615 L13.4483806,13.6216615" stroke-width="1.53000004" fill="#FFFFFF"></path>
+                                        </g>
+                                        <polygon stroke="#545E65" stroke-width="0.63" fill="#545E65" points="10.0137267 13.7616962 8.14971862 12.4130115 6.28508502 13.7616962 6.99753644 11.5795269 5.14040891 10.2364154 7.43601619 10.2364154 8.15034413 8.04929231 8.86404656 10.2364154 11.1590283 10.2364154 9.30190081 11.5795269"></polygon>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <path d="M75.4429825,22.1153846 C81.1814148,22.1153846 85.8333333,17.5607429 85.8333333,11.9423077 C85.8333333,6.32387245 81.1814148,1.76923077 75.4429825,1.76923077 C69.7045501,1.76923077 65.0526316,6.32387245 65.0526316,11.9423077 C65.0526316,17.5607429 69.7045501,22.1153846 75.4429825,22.1153846 Z" id="Oval-31" fill="#DCDEE0"></path>
+                    </g>
+                </g>
+            </g>
+            <g id="menu" transform="translate(111.000000, 118.000000)" font-size="13" font-family=".AppleSystemUIFont" fill="#FFFFFF" opacity="0.7" font-weight="normal">
+                <text id="MY-SCHEDULE">
+                    <tspan x="0" y="13">MY SCHEDULE</tspan>
+                </text>
+                <text id="MY-TEXTBOOKS">
+                    <tspan x="150" y="13">MY TEXTBOOKS</tspan>
+                </text>
+            </g>
+            <text id="SELL-TEXTBOOKS" opacity="0.699999988" font-family=".AppleSystemUIFont" font-size="13" font-weight="normal" fill="#FFFFFF">
+                <tspan x="420" y="131">SELL TEXTBOOKS</tspan>
+            </text>
+            <text id="MY-CLASSMATES" opacity="0.7" font-family=".AppleSystemUIFont" font-size="13" font-weight="normal" fill="#FFFFFF">
+                <tspan x="586" y="131">MY CLASSMATES</tspan>
+            </text>
+            <text id="EDIT-|-REMOVE" font-family=".SFNSText-Regular, .SF NS Text" font-size="10" font-weight="normal" line-spacing="22" letter-spacing="0.416666657" fill="#2980B9">
+                <tspan x="830" y="806">EDIT | REMOVE</tspan>
+            </text>
+            <text id="Jane@gmail.com" font-family=".SFNSDisplay-Regular, .SF NS Display" font-size="14" font-weight="normal" letter-spacing="0.373333305" fill="#465C66">
+                <tspan x="603" y="810">Jane@gmail.com</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
