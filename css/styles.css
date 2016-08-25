@@ -1721,7 +1721,9 @@ body {
 
 	.min-h-50 {min-height: 50px !important;}
 
-	.border-bottom-none {border-bottom:none !important;}
+	.h-79 {height: 79px !important;}
+
+	.border-bottom-none {border-bottom: none !important;}
 
 	.title-1 {
 		font-size: 25px;
@@ -1779,6 +1781,10 @@ body {
 
 	.x-auto {overflow-x: auto;}
 	.max-w-row {width: 100% !important; min-width: 1080px !important;}
+
+	.upper {text-transform: uppercase;}
+	.lower {text-transform: lowercase;}
+	.capitalize {text-transform: capitalize;}
 
 	.txt-center {text-align:center;}
 	.txt-right {text-align:right;}
