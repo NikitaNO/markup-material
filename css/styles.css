@@ -1235,6 +1235,20 @@ body {
 		border-radius: 3px;
 	}
 	.input-2 ._hint:hover {background-color: rgba(0,0,0, .1);}
+
+
+	.input-3 .caret {right: 20px !important; top: 19px !important;}
+
+	.input-3 input {
+		border-bottom: 1px solid #dfdfdf !important;
+		box-shadow: none !important;
+	}
+
+	.input-3 input,
+	.input-3 label
+	{color: #979da2 !important; }
+
+	.input-3 input:focus {color: #545e65 !important;}
 /* end My Schedule Without Books */
 
 
@@ -1535,6 +1549,25 @@ body {
 
 
 
+/* end 28 Link a card */
+	.button-tabs {
+		background: #545e65;
+		display: table;
+		border-radius: 50px;
+	}
+	.button-tabs button {
+		color: #fff;
+		font-weight: 600;
+		border-radius: 50px;
+		width: 136px;
+		height: 33px;
+		padding: 0;
+	}
+	.button-tabs button.active {background: #72d098;}
+/* end 28 Link a card */
+
+
+
 
 /* It is not general styles */
 	.schedule .select-wrapper input.select-dropdown {
@@ -1664,6 +1697,8 @@ body {
 		border-radius: 3px;
 	}
 
+	.transition {transition: .3s;}
+
 	._block {display: block !important;}
 	._inline-block {display: inline-block !important;}
 
@@ -1687,6 +1722,11 @@ body {
 		margin-left: auto !important;
 		margin-right: auto !important;
 		display: table;
+	}
+	._center-block {
+		margin-left: auto !important;
+		margin-right: auto !important;
+		display: block;
 	}
 
 	.box-shadow {box-shadow: 0 0 25px rgba(0, 0, 0, 0.25) !important;}
@@ -1717,6 +1757,7 @@ body {
 	.margin-left-25 {margin-left: 25px !important;}
 
 	.margin-right-37 {margin-right: 37px !important;}
+	.margin-right-40 {margin-right: 40px !important;}
 
 
 	.top-0 {top: 0 !important;}
@@ -1727,11 +1768,14 @@ body {
 	.w80per {width: 80% !important}
 	.w100per {width: 100% !important}
 
+	.w-58 {width: 58px !important}
 	.w-75 {width: 75px !important}
+	.w-76 {width: 76px !important}
 	.w-151 {width: 151px !important}
 	.w-190 {width: 190px !important}
 	.w-240 {width: 240px !important;}
 	.w-250 {width: 250px !important;}
+	.w-274 {width: 274px !important;}
 	.w-341 {width: 341px !important;}
 	.w-380 {width: 380px !important;}
 	.w-439 {width: 439px !important;}
@@ -1836,8 +1880,8 @@ body {
 
 	.min-w-130 {min-width:130px;}
 
-	.txt-size-10 {font-size: 10px;}
-	.txt-size-11 {font-size: 11px;}
+	.txt-size-10 {font-size: 10px !important;}
+	.txt-size-11 {font-size: 11px !important;}
 	.txt-size-12 {font-size: 12px !important;}
 	.txt-size-13 {font-size: 13px !important;}
 	.txt-size-14 {font-size: 14px;}
