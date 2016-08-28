@@ -1562,8 +1562,17 @@ body {
 		width: 136px;
 		height: 33px;
 		padding: 0;
+		position: relative;
+		z-index: 1;
 	}
-	.button-tabs button.active {background: #72d098;}
+	.button-tabs button.active {
+		background: #72d098;
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: 0;
+		transition: .3s;
+	}
 /* end 28 Link a card */
 
 

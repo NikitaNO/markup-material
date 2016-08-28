@@ -1,4 +1,15 @@
- $(document).ready(function(){
+ $(document).ready(function() {
+
+    // slide buttons - page 'Link a card'
+    $buttonTab1 = $('.button-tab-1');
+    $buttonTab2 = $('.button-tab-2');
+    $activeTab = $('.button-tabs').find('.active');
+    $buttonTab1.on('click', () => {
+        $activeTab.css('left', '0');
+    });
+    $buttonTab2.on('click', () => {
+        $activeTab.css('left', '50%');
+    });
 
     // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
     $('.open-user-profile').leanModal();
